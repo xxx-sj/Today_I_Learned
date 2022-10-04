@@ -5,23 +5,28 @@
 (setter or 수정자를 통해 해당 interface[구현체] 를 변경할 수 있다.)
 
 ```java
-  interface AttackInterface {
-    public void attack();
-  }
+interface AttackInterface {
+  public void attack();
+}
 ```
 
 ```java
-  class Tank implements AttackInterface {
-     @Override
-     public void attack() {
-        System.out.println("탱크가 공격합니다.");
-     }
-  }
+class Tank implements AttackInterface {
+   @Override
+   public void attack() {
+      System.out.println("tack attack.");
+   }
+}
 ```
 
 ```java
-  class 
-
+class Airport implements AttackInterface {
+   @Override
+   public void attack() {
+      System.out.println("airport attack.");
+   }
+}
+```
 
 ```java
 Class Unit {
