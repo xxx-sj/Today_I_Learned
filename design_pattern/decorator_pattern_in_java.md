@@ -130,7 +130,7 @@ public int read(byte[] b, int off, int len) throws IOException {
             if (len > remaining) {
                 len = (int)remaining;
             }
-            ** len = in.read(b, off, len); ** 
+            **** len = in.read(b, off, len); **** 
             if (len == -1) {
                 throw new ZipException("unexpected EOF");
             }
