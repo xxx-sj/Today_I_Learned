@@ -93,16 +93,17 @@ static void bubbleSort2(int[] a, int n) {
 ```java
 
 static void bubbleSort3(int[] a, int n) {
-    int k = 0; //a[k]보다 앞쪽은 정렬을 마친 상태
+    int k = 0; //a[k]보다 앞쪽은 정렬을 마친 상태.. 앞에 정렬된 인덱스 값을 갖고 있음
     while(k < n -1) {
-        int last = n - 1; //마지막 요소를 교환한 위치
-        for (int j = n - 1; j > k; j--) {
-            if (a[j - 1] > a[j]) {
-                swap(a, j - 1, j);
-                last = j;
+    //정렬된 값부터 ~ n -1 까지
+        int last = n - 1; //마지막 요소를 교환한 위치 //마지막 요소값
+        for (int j = n - 1; j > k; j--) { //k까지 [k]는 정렬된 값
+            if (a[j - 1] > a[j]) { // 앞뒤값 비교
+                swap(a, j - 1, j); // swap
+                last = j; // if문안에 들어왔을 때 마지막으로 swap된 값 
             }
         }
-        k = last;
+        k = last; //마지막으로 정렬된 값을 k에 넣는다 for문 
     }
 }
 ```
