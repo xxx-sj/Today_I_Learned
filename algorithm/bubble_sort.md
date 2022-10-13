@@ -62,4 +62,49 @@ class BubbleSort {
 }
 ```
 
+##### 알고리즘 개선-1
+```
+어떠한 패스에서의 요소의 교환 횟수가 0이면 더 이상 정렬할 필요가 없으므로 정렬작업을 멈춘다.
+```
+
+```java
+static void bubbleSort2(int[] a, int n) {
+    for(int i =0; i < n -1; i++) {
+        int countOfChanged = 0; //매번 패스가 진행될 때 count를 0으로 초기화 한다.
+        for (int j = n - 1; j > i; j--) {
+            if (a[j - 1] > a[j]) {
+                swap(a, j - 1, j);
+                countOfChanged++;
+            }
+        }
+        if (countOfChanged == 0) break; //교환이 이루어지지않았다면 종료한다.
+    }
+}
+
+```
+
+##### 알고리즘 개선-2
+
+```
+어떠한 패스에서 비교, 교환을 하다가 어떤 시점 이후에 교환이 수행되지 않는다면 그보다 앞쪽의 요소는 이미
+정렬을 마친 상태라고 생각해도 좋다. 따라서 두 어떠한 패스에서 교환이 수행되지 않는다면 그 만큼 제외 후 진행해도 좋다.
+```
+
+```java
+
+static void bubbleSort3(int[] a, int n) {
+    int k = 0; //a[k]보다 앞쪽은 정렬을 마친 상태
+    while(k < n -1) {
+        int last = n - 1; //마지막 요소를 교환한 위치
+        for (int j = n - 1; j > k; j--) {
+            if (a[j - 1] > a[j]) {
+                swap(a, j - 1, j);
+                last = j;
+            }
+        }
+        k = last;
+    }
+}
+```
+
 ###### 출처: 자료구조와 함께배우는 알고리즘
