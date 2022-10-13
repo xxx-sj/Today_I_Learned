@@ -100,7 +100,7 @@ static void bubbleSort3(int[] a, int n) {
         for (int j = n - 1; j > k; j--) { //k까지 [k]는 정렬된 값
             if (a[j - 1] > a[j]) { // 앞뒤값 비교
                 swap(a, j - 1, j); // swap
-                last = j; // if문안에 들어왔을 때 마지막으로 swap된 값 
+                last = j; // if문안에 들어왔을 때 마지막으로 swap된 값. 비교 중 오른쪽 
             }
         }
         k = last; //마지막으로 정렬된 값을 k에 넣는다 for문 
