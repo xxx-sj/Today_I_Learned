@@ -152,6 +152,10 @@ abstract class AbstractClass {
 hook method는 추상클래스에서 선언되지만 기본적인 내용만 구현되어 있거나    
 아무 코드도 들어있지 않은 메소드입니다. 다양한 위치에서 알고리즘에 끼어들 수도 있고,
 그냥 무시하고 넘어가도 되는 메소드이다.
+후크메소드는 알고리즘의 특정단계가 선택적으로 적용된다면 고려해볼만 하다.
+알고리즘에서 필수적이지 않은 부분을 서브클래스에서 구현하도록 만들고 싶을 때
+앞으로 일어날 일이나 막 일어난 일에 대해 반응할 수 있또록 기회를 제공하고 싶을 때
+서브클래스가 추상 클래스에서 진행되는 작업을 처리할지 말지 결정하게 하는 기능을 부여할 때
 ```
 
 ##### hook 메소드 사용해보기
@@ -247,7 +251,7 @@ class CoffeeWithHook extends CaffeineBeverageWithHook {
         if (answer.toLowerCase().startsWith("y")) {
             return true;
         } else {
-            return; false;
+            return false;
         }
     }
 
