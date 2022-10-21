@@ -43,3 +43,8 @@ Vue.createApp({
 }).mount("#app");
 
 ```
+
+```
+data는 function 이면 return으로 항상 object를 반환해야한다.
+
+```
