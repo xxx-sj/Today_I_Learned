@@ -21,5 +21,7 @@ app.mount("#user-goal");
 <p>{{courseGoal}}</p>
 ```
 
-
+```
+vue가 제어하지않는 부분에서는 데이터가 표시되지않는다.
+```
 
