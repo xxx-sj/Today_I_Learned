@@ -143,4 +143,19 @@ class Waitress {
 }
 ```
 
+
+```
+Client = waitress
+Aggregate = Menu
+ConcreateAggreagte = Concrete menu
+iterator = java.util.iterator
+concreteIterator = DinerIterator
+
+menu 인터페이스는 iterator를 return 하는 메소드를 추상화한다.
+concreteAggregate는 해당 메소드는 구현하게된다. 해당 클래스 내에는    
+객체 컬렉션이 들어있다. 모든 concreteAggregate는 그 안에 있는 개체 컬렉션 대상으로    
+돌아가면서 반복 작업을 처리할 수 있게 해주는 concreteiterator의 인스턴스를 만들 수 있어야 한다.
+concreteiterator는 반복 작업 중에 현재 위치를 관리하는 일을 맡고 있다.
+```
+
 ##### 출처: 헤드퍼스트 디자인패턴: 개정판
