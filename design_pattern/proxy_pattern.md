@@ -213,6 +213,8 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
 ```
 
 
+
+
 ### 3.rmiregistry 싱행하기
 - 터미널을 새로 띄워 rmiregistry를 실행한다.
 
