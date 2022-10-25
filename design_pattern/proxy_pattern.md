@@ -224,4 +224,31 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
 별도의 클래스로부터 실행할 수도 있다. 이 예제에서는 서비스를 구현한 클래스의 main 메소드에서 바로 객체 인스턴스를 만들고    
 RMI 레지스트리에 등록하였다.
 ```
+
+
+##### 클라이언트는 스텁 객체(proxy)를 가져와야 한다. 
+```
+거기에 있는 메소드를 호출해야 하니까요. 클라이언트는 룩업(lookup)으로 스텁 객체를 요청한다. -> request to RMI registry 
+이름을 건네주면서 그 이름에 맞는 스텁 객체를 rmi레지스트리에 요청한다.
+스텁 객체를 룩업하고 가져오는데 필요한 코드이다.
+```
+
+
+```java
+MyRemote service =
+    (MyRemote) Naming.lookup("rmi://127.0.0.1/RemoteHello");
+```
+
+```
+클라이언트는 항상 서비스를 원격 인터페이스 혁식으로 지정한다. [MyRemote] 
+원격 서비스를 구현한 클래스의 이름은 몰라도 된다.
+lookup()은 Naming 클래스에 있는 정적 메소드이다. 
+서비스를 등록할 때 사용한 이름을 적어줘야한다. [RemoteHello]
++ 서비스가 돌아가고 있는 시스템의 호스트 이름 또는 ip주소가 들어가야한다.
+리턴된 스텁은 인터페이스 형식으로 캐스팅 해줘야한다. [(MyRemote)]
+   lookup의 return 타입은 object이다.
+```
+
+##### 이어서...
+
 ##### 출처: 헤드퍼스트 디자인패턴: 개정판
