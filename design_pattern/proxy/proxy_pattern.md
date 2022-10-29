@@ -100,6 +100,7 @@ package main.designPattern.proxyPattern;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
+//service code
 //remote는 marker(표식용) 인터페이스인데 메소드가 없다.
 //이 인터페이스에서 원격 호출을 지원한다는 사실을 알려준다.
 public interface MyRemote extends Remote {
@@ -129,6 +130,7 @@ import java.rmi.server.RMIClientSocketFactory;
 import java.rmi.server.RMIServerSocketFactory;
 import java.rmi.server.UnicastRemoteObject;
 
+//service code
 public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
 
     protected MyRemoteImpl() throws RemoteException {
@@ -142,6 +144,7 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
         super(port, csf, ssf);
     }
 
+      //수행할 메소드
     @Override
     public String sayHello() throws RemoteException {
         return "Server say, hey";
@@ -237,6 +240,9 @@ RMI 레지스트리에 등록하였다.
 ```java
 MyRemote service =
     (MyRemote) Naming.lookup("rmi://127.0.0.1/RemoteHello");
+    (MyRemote) Naming.lookup([rmi://[host]/[서비스서버에서 서비스를 등록할 때 사용한 이름 line:200]])
+    //서비스가 돌아가고 있는 시스템의 호스트 이름 또는  ip 주소 // 서비스를 등록할 떄 사용한 이름을 /[이곳] 넣어야한다.
+    
 ```
 
 ```
