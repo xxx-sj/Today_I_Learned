@@ -111,6 +111,7 @@ public class NoQuarterState implements State {
 }
 ```
 
+##### GumballMachine 클래스를 네트워크로 들어온 요청을 처리하는 서비스로 수정
 
 
 
