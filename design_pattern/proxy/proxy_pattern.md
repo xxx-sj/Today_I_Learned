@@ -238,6 +238,7 @@ RMI 레지스트리에 등록하였다.
 
 
 ```java
+클라이언트에서 사용하는 코드
 MyRemote service =
     (MyRemote) Naming.lookup("rmi://127.0.0.1/RemoteHello");
     (MyRemote) Naming.lookup([rmi://[host]/[서비스서버에서 서비스를 등록할 때 사용한 이름 line:200]])
