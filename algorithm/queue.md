@@ -62,8 +62,7 @@ class IntQueue {
         num++;
         //리얼값을 증가시켰는데 해당 값이 max와 같다면 0으로 돌린다
         //max는 요소의 갯수 [max - 1 == maxIndex]
-        if(rear == max)
-            return 0;
+        if(rear == max) rear = 0;
         return x;
     }
 
