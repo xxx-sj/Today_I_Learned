@@ -13,7 +13,10 @@ Vue.createApp({
     },
 });
 ```
+
+
 enteredValue와 html element 와 데이터 바인딩을한다.
+
 
 ```javascript
 <input type="text" id="goal" v-model="enteredValue"/>
