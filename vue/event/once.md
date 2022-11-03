@@ -4,5 +4,5 @@
 ```
 
 ```javascript
-<p v-once>Starting Counter: {{counter}}</p>
+<p v-once>Starting Counter: {{counter}}</p>   
 ```
