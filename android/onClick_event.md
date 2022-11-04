@@ -30,6 +30,23 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
+``` kotlin
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+
+        val mainButton: Button = this.findViewById<Button>(R.id.main_button)
+
+        mainButton.setOnClickListener(object: View.OnClickListener {
+            override fun onClick(view: View?) {
+                //do something
+            }
+        })
+    }
+```
+
 ```
 onClick 메소드에는 속성과 호환으로 인식하기 위해 몇가지 조건이 있다.
 1. public 메소드 이여야 한다.
