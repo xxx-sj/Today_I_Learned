@@ -8,7 +8,9 @@
 ### 설정안내
 = 뷰 결합은 Android Studio 3.6 Canary 11 이상에서 사용 가능하다.
 ```
+
 뷰 결합은 모듈별로 사용 설정된다. 모듈에서 뷰 결합을 사용 설정하려면 다음과 같이 viewBinding 요소를 build.gradle 파일에 복사한다.
+
 ```
 
 ```groovy
