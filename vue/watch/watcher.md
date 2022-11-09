@@ -46,3 +46,8 @@ watch: {
 //만약, name 과 binding 된 input이 있다면[v-model="name"], 해당 input을 통해 name이 update될 것이고,
 //watch method를 통해 fullname이 update될 것이다. 여기서, value의 값으로 매번 update된 name이 전달된다.
 ```
+
+```
+watch method에는 2개의 인자를 받을 수 있는데, [methodName(newValue, oldValue)] 여기서는 newValue만 필요하기에
+하나의 인자만 받았다.
+```
