@@ -79,3 +79,8 @@ computed: {
     }
   },
 ```
+
+```
+computed는 데이터가 변경 될때만 호출하고 싶다거나, 해당 페이지에서 데이터의 변경 [예시에서는 counter]이 자주 일어나서 값을
+다시 계산해야할 때 사용하면 좋다. computed는 무언가를 output 할 때 사용한다. [트리거는 method 사용합시다.. like counter++.. counter--..]
+```
