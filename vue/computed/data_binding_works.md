@@ -1,12 +1,12 @@
 # 데이터 바인딩 작동원리
 
-### 아래와 같이 method를 사용하는 것은 좋지않다.[outputNullname()]
+### 아래와 같이 method를 사용하는 것은 좋지않다.[outputFullname()]
 ```xml
 <button v-on:click="counter++">Add</button>
 <button v-on:click="counter--">Remove</button>
 <p>Result: {{ counter }}</p>
 
-<p>Your name: {{ outputNullname() }}</p>
+<p>Your name: {{ outputFullname() }}</p>
 ```
 ```javascript
 data() {
