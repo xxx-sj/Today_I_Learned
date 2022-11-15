@@ -18,7 +18,7 @@ data() {
   },
 
 methods: {
-    outpuFullname() {
+    outputFullname() {
       if (name === '') {
         return '';
       }
