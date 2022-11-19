@@ -43,3 +43,9 @@ app.mount('#styling')
 computed를 사용하면 좋은 이유는 inline에서 보다 복잡한 logic을 사용할 수 있으며, 
 복잡한 check를 해야하는 경우 등에 사용하면 좋다. [if...] 복잡하지 않다면 inline도 좋다.
 ```
+
+
+```
+위와 같이 나눌수도 있고, class binding에 배열로 값을 넘길 수 있다.
+[ :class="['demo', {active: boxBSelected}]" ]
+```
