@@ -1,7 +1,13 @@
 # 반복문
+### v-if와 같은 element에 사용하지 말 것!!
+```
+대신, v-if wrapper를 사용할 것 [template 또는 의미있는 태그 ]
+```
+
 
 ```
 javascript에서 사용하는 for문과 유사하게 vue에서도 for문[반복문]을 제공한다.
+
 ```
 
 ```html
