@@ -2,7 +2,6 @@
 
 ```
 javascript에서 사용하는 for문과 유사하게 vue에서도 for문[반복문]을 제공한다.
-
 ```
 
 ```html
@@ -21,6 +20,10 @@ data() {
       goals: [],
     };
   },
+```
+
+```
+v-for에서 index 도 가져올 수 있다 [ v-for="(goal, index) in goals" ]
 ```
 
 ##### 출처 : https://www.udemy.com/course/vuejs-2-the-complete-guide
