@@ -41,7 +41,6 @@ compile template 에서는 모든 dynamic placeholders, the interpolations 등�
 ```
 
 ```
-```
 createApp({....})
       |
       |
