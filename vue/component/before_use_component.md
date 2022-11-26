@@ -1,4 +1,4 @@
-# template에 들어가기에 앞서
+# component 들어가기에 앞서
 
 ```html
 <section id="app">
