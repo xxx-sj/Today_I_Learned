@@ -1,4 +1,4 @@
-# template-propert [템플릿]
+# template-proper [템플릿]
 
 ```
 vue에는 template이라는 property가 있다. 단순히 html에서 보자면 mount한 부분이 template이 될 수 있다.
