@@ -85,4 +85,9 @@ li {
 </style>
 ```
 
+```
+vue가 실제로 구현한 방법이 궁금하다면, 개발자 도구를 열어서 확인해보면, 요소에 특별한 attributes를[data-v-927321a] 부여하여 적용한다.
+[ header[data-v-927321a] ]
+```
+
 ##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide
