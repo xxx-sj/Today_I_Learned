@@ -1,4 +1,7 @@
 # slots
+```
+slots 은 template에 정의할 때 v-slot:[name] 또는 #[name] 으로 정의할 수 있다.
+```
 
 ```
 2가지의 component가 공통적으로 section 태그를 갖고 있으며, 같은 style을 가지고 있다.
