@@ -8,4 +8,5 @@
 ***
 ### 2022-12-02 [금]
 - [slots](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/slots.md)
+- [naming_slots](https://github.com/Jungsangjin0/Today_I_Learned/tree/master/vue/slots)
 ***
