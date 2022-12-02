@@ -7,5 +7,5 @@
 - [scoped_style](https://github.com/Jungsangjin0/til/edit/master/vue/style/scoped_styles.md)
 ***
 ### 2022-12-02 [금]
-- [slot]
+- [slots](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/slots.md)
 ***
