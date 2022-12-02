@@ -10,4 +10,5 @@
 - [slots](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/slots.md)
 - [naming_slots](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/naming_slots.md)
 - [slot-style](https://github.com/Jungsangjin0/Today_I_Learned/tree/master/vue/slots/slot_style.md)
+- [](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/default_content_slot.md)
 ***
