@@ -6,3 +6,6 @@
 - [local_regist](https://github.com/Jungsangjin0/til/blob/master/vue/component/02.local_regist.md)
 - [scoped_style](https://github.com/Jungsangjin0/til/edit/master/vue/style/scoped_styles.md)
 ***
+### 2022-12-02 [금]
+- [slot]
+***
