@@ -16,4 +16,5 @@ console.log(string.indexOf('is')); // 3
 console.log(string.indexOf('c')); // 11
 console.log(string.indexOf('javascript')); //6
 console.log(string.indexOf('java')); //6
+console.log(string.indexOf('JAVA')); // -1
 ```
