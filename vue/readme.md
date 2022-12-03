@@ -12,3 +12,6 @@
 - [slot-style](https://github.com/Jungsangjin0/Today_I_Learned/tree/master/vue/slots/slot_style.md)
 - [default_content_slot](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/default_content_slot.md)
 ***
+### 2022-12-03 [토]
+- [scoped_slots]()
+* * *
