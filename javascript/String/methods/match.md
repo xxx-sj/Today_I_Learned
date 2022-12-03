@@ -2,6 +2,9 @@
 
 ```
 문자열에 인자로 전달한 문자열 또는 정규식 패턴에 맞는 문자가 있다면 반환하면 없다면 null을 반환한다.
+regex가 아닌 object가 전달되면 암묵적으로 Regexp로 변환된다.
+매개변수를 전달하지 않고 method를 사용한다면 빈 문자열[""]이 있는 arr이 반환된다.
+
 
 let string = 'love'
 let patternOne = /love/     // with out any flag
@@ -31,3 +34,4 @@ console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
 ##### 출처: https://github.com/xxx-sj/30-Days-Of-JavaScript/blob/master/02_Day_Data_types/02_day_data_types.md 
+            https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/match
