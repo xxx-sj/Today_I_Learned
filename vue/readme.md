@@ -14,5 +14,5 @@
 ***
 ### 2022-12-03 [토]
 - [scoped_slots](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/scoped_slots.md)
-- [dynamic_component](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/scoped_slots.md)
+- [dynamic_component](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/component/dynamic_components.md)
 * * *
