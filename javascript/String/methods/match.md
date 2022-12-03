@@ -34,4 +34,4 @@ console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
 ##### 출처: https://github.com/xxx-sj/30-Days-Of-JavaScript/blob/master/02_Day_Data_types/02_day_data_types.md 
-            https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/match
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/match
