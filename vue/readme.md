@@ -16,4 +16,5 @@
 - [scoped_slots](https://github.com/Jungsangjin0/Today_I_Learned/blob/master/vue/slots/scoped_slots.md)
 - [dynamic_component](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/component/dynamic_components.md)
 - [keeping_dynamic_components_alive](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/dynamic_components/keeping_dynamic_components_alive.md)
+- [teleport](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/teleport/teleport.md)
 * * *
