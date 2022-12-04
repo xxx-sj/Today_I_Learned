@@ -9,8 +9,21 @@ let firstName = "an";
 let lastName = "ri";
 ```
 
-**operator**
+### 할당연산자
 
-|operator| example | smae as|
----|---|---|---
-= | 
+```
+=   |   x = y
++=  |  x = x + y
+-=  |  x = x - y
+*=  |  x = x * y
+...
+```
+###산술 연산자
+```
+더하기(+): a + b
+빼기(-): a - b
+곱셈(*): a * b
+나눗셈(/): a / b
+계수(%): a % b
+지수(**): a ** b
+```
