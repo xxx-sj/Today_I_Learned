@@ -12,4 +12,5 @@ let lastName = "ri";
 **operator**
 
 |operator| example | smae as|
-* * *
+---|---|---|---
+= | 
