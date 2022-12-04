@@ -18,3 +18,6 @@
 - [keeping_dynamic_components_alive](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/dynamic_components/keeping_dynamic_components_alive.md)
 - [teleport](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/teleport/teleport.md)
 * * *
+### 2022-12-04 [일]
+- [prj02](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/prj2/resource_app)
+* * *
