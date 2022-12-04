@@ -1,0 +1,177 @@
+# add_resource
+
+```
+resource를 추가하는 component를 만들고, 어떠한 액션 또는 이벤트에 의해 화면에 렌더링되는 component를 변경하기 위해
+component tag를 사용한다.
+```
+
+```vue
+//TheResources.vue
+
+<template>
+  <base-card>
+    <base-button @click='setSelectedTab("stored-resources")'>Stored Resources</base-button>
+    <base-button @click='setSelectedTab("add-resource")'>Add Resource</base-button>
+  </base-card>
+  <component :is='selectedTab'/>
+</template>
+
+<script>
+import BaseCard from '@/components/UI/BaseCard';
+import BaseButton from '@/components/UI/BaseButton';
+export default {
+  name: 'TheResources',
+  components: { BaseButton, BaseCard },
+  data() {
+    return {
+      selectedTab: 'stored-resources'
+    };
+  },
+  methods: {
+    setSelectedTab(tab) {
+      this.selectedTab = tab;
+    }
+  }
+};
+</script>
+```
+
+```
+위 component는 버튼에 따라 component를 전환하는 container 역할을 하는 component이다.
+여기서 문제로 보일 수 있는데, base-button의 onclick event를 추가하였지만 제대로 동작하지 않을 것이다라고 생각할 수 있다.
+base-button은 custom component 이기 때문에 해당 component 내부에 있는 button을 누르더라도 base-button을 사용하는
+component에 이벤트가 전달되지 않을 것 처럼 보이지만, vue에서 자동적으로 base-button tag에 적용한 click event를 
+base-button 내에 있는 button에 연결 시킨다.
+
+[ <base-button @click='setSelectedTab("stored-resources")'>Stored Resources</base-button> 에 입력한 click event는 ]
+[ base-button내에 있는 <button :type='type' :class='mode' @click='setSelectedTab("stored-resources")'> button에 이처럼 추가가되는 격이다.] 
+```
+
+```
+이제 container 역할을 하는 the-resources component에 스위칭할 StoredResouce와 AddResource를 import하고 components 추가한다.
+```
+
+```vue
+//theResource.vue
+
+<template>
+  <base-card>
+    <base-button @click='setSelectedTab("stored-resources")'>Stored Resources</base-button>
+    <base-button @click='setSelectedTab("add-resource")'>Add Resource</base-button>
+  </base-card>
+  <component :is='selectedTab'/>
+</template>
+
+<script>
+import StoredResources from './StoredResources';
+import AddResource from '@/components/learning-resources/AddResource';
+export default {
+  name: 'TheResources',
+  components: {
+    StoredResources,
+    AddResource,
+  },
+  data() {
+    return {
+      selectedTab: 'stored-resources'
+    };
+  },
+  methods: {
+    setSelectedTab(tab) {
+      this.selectedTab = tab;
+    }
+  }
+};
+</script>
+```
+
+```
+App.vue에서 container component를 사용할 것이므로 기존에있던 storedResouces component를 제거할 것인데,
+storedResource component를 보면 props로 렌더링할 data를 받욌다. 해당 data는 App.vue에 있는데, 
+the-resources로 옮기면 어떻게 처리해야할까?
+```
+
+```vue
+//storedResources
+
+<template>
+  <ul>
+    <learning-resource v-for='res in resources'
+     :key='res.id'
+     :title='res.title'
+     :description='res.description'
+     :link='res.link' />
+  </ul>
+</template>
+
+<script>
+import LearningResource from '@/components/learning-resources/LearningResource';
+export default {
+  name: 'StoredResources',
+  props: ['resources'],
+  components: { LearningResource, },
+};
+</script>
+
+<style scoped>
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  max-width: 40rem;
+}
+</style>
+```
+
+```vue
+//App.vue
+
+<template>
+  <the-header title='RememberMe'></the-header>
+</template>
+
+<script>
+import TheHeader from '@/components/layouts/TheHeader';
+export default {
+  name: 'App',
+  components: {
+    TheHeader,
+  },
+
+  data() {
+    return {
+      storedResources: [
+        { id: 'official-guide',
+          title: 'Official Guide',
+          description: 'The official Vue.js documentation',
+          link: 'https://vuejs.org'
+        },
+        { id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.com'
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+</style>
+```
+##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture
