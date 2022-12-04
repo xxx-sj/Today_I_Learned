@@ -12,4 +12,5 @@
 - [boolean](https://github.com/xxx-sj/Today_I_Learned/tree/master/javascript/Boolean)
 - [conditionals](https://github.com/xxx-sj/Today_I_Learned/tree/master/javascript/conditionals)
 - [array](https://github.com/xxx-sj/Today_I_Learned/tree/master/javascript/Array)
+- [loops](https://github.com/xxx-sj/Today_I_Learned/tree/master/javascript/loops)
 * * *
