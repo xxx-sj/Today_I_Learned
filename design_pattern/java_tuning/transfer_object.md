@@ -1,7 +1,7 @@
 # transfer_object
 
 ```
-
+일일이 null check를 하지않아도 되는 이점이 있다.
 ```
 
 ```java
