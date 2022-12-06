@@ -15,3 +15,6 @@
 - [Javascript](https://github.com/xxx-sj/Today_I_Learned/tree/master/javascript)
 - [webpack](https://github.com/xxx-sj/Today_I_Learned/tree/master/webpack)
 * * * 
+### 2022-12-06 [화]
+- [design_pattern](https://github.com/xxx-sj/Today_I_Learned/tree/master/design_pattern/java_tuning)
+* * *
