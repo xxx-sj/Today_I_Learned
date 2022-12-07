@@ -23,4 +23,5 @@
 * * *
 ### 2022-12-07 [수]
 - [v-model/default](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/default.md)
+= [v-model/modifiers](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/modifiers.md)
 * * *
