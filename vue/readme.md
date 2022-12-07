@@ -22,5 +22,5 @@
 - [prj02](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/prj2/resource_app)
 * * *
 ### 2022-12-07 [수]
-- [prj02](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/prj2/resource_app)
+- [prj02](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/empty.md)
 * * *
