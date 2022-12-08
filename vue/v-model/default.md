@@ -1,4 +1,4 @@
-# v-model [ value + @input ]
+# v-model [ value + @input (input에만 해당) ]
 
 ```
 input과 같은 입력 field나, 다른 tag에 값을 양방향으로 바인딩하기 위해 사용한다.
