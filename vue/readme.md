@@ -26,3 +26,6 @@
 - [v-model/modifiers](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/modifiers.md)
 - [v-model/select](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/select.md)
 * * *
+### 2022-12-08 [목]
+- [v-model/radioBox_checkBox](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/radioBox_checkBox.md)
+* * *
