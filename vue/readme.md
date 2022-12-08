@@ -28,4 +28,5 @@
 * * *
 ### 2022-12-08 [목]
 - [v-model/radiobutton_checkbox](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/radiobutton_checkbox.md)
+- [v-model/validate](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/validate.md)
 * * *
