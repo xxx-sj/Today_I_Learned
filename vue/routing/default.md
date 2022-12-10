@@ -6,4 +6,8 @@
 의도한것이라면 이것이 맞겠지만 그것이 아니라면 url을 통해 페이지를 구별해 주어야 할 것이다.
 ```
 
+```
+vue-router를 통해 이를 구현할 수 있다.
+[ npm install --save vue-router ]
+```
 ##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture
