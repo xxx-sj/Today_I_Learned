@@ -37,3 +37,6 @@
 ### 2022-12-09 [토]
 - [v-model/http_request](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/http)
 * * *
+### 2022-12-10 [일]
+- [v-model/routing](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/routing)
+* * *
