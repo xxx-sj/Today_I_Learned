@@ -34,3 +34,6 @@
 ### 2022-12-09 [금]
 - [v-model/custom_component](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/custom_component.md)
 * * *
+### 2022-12-09 [토]
+- [v-model/http_request](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/http)
+* * *
