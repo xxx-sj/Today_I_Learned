@@ -46,4 +46,5 @@
 - [v-model/%24router](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/%24router.md)
 - [v-model/dynamic_segments](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/dynamic_segments.md)
 - [v-model/route_params](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/route_params.md)
+- [v-model/route_params](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/route_params.md)
 * * *
