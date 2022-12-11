@@ -43,7 +43,7 @@
 - [vue_router/routes_option](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/routes_option.md)
 - [vue_router/router_link](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/router_link.md)
 - [vue_router/router_link_style](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/router_link_style.md)
-- [vue_router/%24router](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/%24router.md)
+- [vue_router/$router](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/%24router.md)
 - [vue_router/dynamic_segments](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/dynamic_segments.md)
 - [vue_router/route_params](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/route_params.md)
 - [vue_router/same_router_link](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/same_router_link.md)
@@ -58,5 +58,5 @@
 - [vue_router/controlling_scroll](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/controlling_scroll.md)
 - [vue_router/navigation_guards](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/navigation_guards.md)
 - [vue_router/meta_propery](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/meta_propery.md)
-- [animation_basic%26CSS_Transitions](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/animation_basic%26CSS_Transitions.md)
+- [animation_basic&CSS_Transitions](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/animation_basic%26CSS_Transitions.md)
 * * *
