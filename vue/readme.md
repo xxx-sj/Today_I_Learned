@@ -50,4 +50,5 @@
 - [v-model/vue_router_props](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/vue_router_props.md)
 - [v-model/vue_router_redirect](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/vue_router_redirect.md)
 - [v-model/vue_router_alias](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/vue_router_alias.md)
+- [v-model/not_found_page](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/not_found_page.md)
 * * *
