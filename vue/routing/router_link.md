@@ -73,4 +73,11 @@ a:active {
 }
 </style>
 ```
+
+**동적 router-link**
+```
+router-link의 속성 중 to를 동적 바인딩을 통해 전달할 수 있다
+ [ <router-link :to="'/teams/' + id" />]
+props로 넘어온 id에 따라 to를 동적으로 전달할 수 있다.
+```
 ##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture
