@@ -48,4 +48,6 @@
 - [v-model/route_params](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/route_params.md)
 - [v-model/same_router_link](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/same_router_link.md)
 - [v-model/vue_router_props](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/vue_router_props.md)
+- []()
+- [v-model/vue_router_alias](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/vue_router_alias.md)
 * * *
