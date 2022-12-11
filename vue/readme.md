@@ -57,4 +57,5 @@
 - [v-model/multiple_router_view](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/multiple_router_view.md)
 - [v-model/controlling_scroll](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/controlling_scroll.md)
 - [v-model/navigation_guards](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/navigation_guards.md)
+- [v-model/meta_propery](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/meta_propery.md)
 * * *
