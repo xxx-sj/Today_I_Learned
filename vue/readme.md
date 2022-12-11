@@ -38,5 +38,12 @@
 - [v-model/http_request](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/http)
 * * *
 ### 2022-12-10 [일]
-- [v-model/routing](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/routing)
+- [v-model/default](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/default.md)
+- [v-model/vue-router](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/vue-router.md)
+- [v-model/routes_option](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/routes_option.md)
+- [v-model/router_link](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/router_link.md)
+- [v-model/router_link_style](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/router_link_style.md)
+- [v-model/%24router](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/%24router.md)
+- [v-model/dynamic_segments](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/dynamic_segments.md)
+- [v-model/route_params](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/routing/route_params.md)
 * * *
