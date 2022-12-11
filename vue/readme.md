@@ -54,4 +54,5 @@
 - [v-model/nested_route](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/nested_route.md)
 - [v-model/vue_router_name_alias](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/vue_router_name_alias.md)
 - [v-model/query_string](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/query_string.md)
+- [v-model/multiple_router_view](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/multiple_router_view.md)
 * * *
