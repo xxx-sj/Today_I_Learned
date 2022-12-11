@@ -56,5 +56,5 @@
 - [v-model/query_string](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/query_string.md)
 - [v-model/multiple_router_view](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/multiple_router_view.md)
 - [v-model/controlling_scroll](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/controlling_scroll.md)
-- [v-model](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/vue_router)
+- [v-model/navigation_guards](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/navigation_guards.md)
 * * *
