@@ -34,10 +34,10 @@
 ### 2022-12-09 [금]
 - [v-model/custom_component](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/custom_component.md)
 * * *
-### 2022-12-09 [토]
+### 2022-12-10 [토]
 - [http/http_request](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue/http)
 * * *
-### 2022-12-10 [일]
+### 2022-12-11 [일]
 - [vue_router/default](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/default.md)
 - [vue_router/vue-router](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/vue-router.md)
 - [vue_router/routes_option](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/routes_option.md)
@@ -59,4 +59,10 @@
 - [vue_router/navigation_guards](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/navigation_guards.md)
 - [vue_router/meta_propery](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vue_router/meta_propery.md)
 - [animation_basic&CSS_Transitions](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/animation_basic%26CSS_Transitions.md)
+- [animation/custom_css_name](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/custom_css_name.md)
+* * *
+### 2022-12-12 [월]
+- [v-model/default](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/default.md)
+- [v-model/modifiers](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/modifiers.md)
+- [v-model/select](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/select.md)
 * * *
