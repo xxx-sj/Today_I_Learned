@@ -62,7 +62,9 @@
 - [animation/custom_css_name](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/custom_css_name.md)
 * * *
 ### 2022-12-12 [월]
-- [v-model/default](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/default.md)
-- [v-model/modifiers](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/modifiers.md)
-- [v-model/select](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/select.md)
+- [animation/default](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/default.md)
+- [animation/modifiers](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/modifiers.md)
+- [animation/select](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/v-model/select.md)
 * * *
+### 2022-12-13 [화]
+- [animation/using_with_custom_component](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation&transitions/using_with_custom_component.md)
