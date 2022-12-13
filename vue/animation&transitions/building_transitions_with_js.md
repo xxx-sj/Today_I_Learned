@@ -13,7 +13,7 @@ css로 transition을 control 했었지만 css 이외에도 js로도 transition�
     <button @click='animateBlock'>Animate</button>
   </div>
   <div class='container'>
-    <transition name='para'
+    <transition :cass="false"
                 @before-enter='beforeEnter'
                 @enter="enter"
                 @after-enter='afterEnter'
@@ -219,5 +219,10 @@ beforeEnter 와 beforeLeave는 animation 시작 전 단계이고, enter와 leave
 동시에 2개의 이벤트가 발생하면 [ enter, leave ] 이벤트가 끝나지 않았기에 2개의 이벤트로 인해 animation이 겹치게 된다
 이러한 것을 방지하기위해 enterCancelled 과 leaveCancelled 이벤트를 추가한다.
 enterCancelled는 enter event의 취소이고, leaveCancelled는 leave event의 취소이다.
+```
+
+```
+transiton의 element에 [ :cass="false" ]를 추가하면, css로 사용하지않고 js로 사용한다고 vue에게 알려주는 것이다.
+css 클래스에 관련 검색을 건너뛰고 js만 실행하게 되기에 약간의 성능이 증가한다.
 ```
 ##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture
