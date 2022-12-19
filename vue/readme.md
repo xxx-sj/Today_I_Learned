@@ -72,3 +72,5 @@
 ### 2022-12-14 [수]
 - [animation/transition_event](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/transition_event.md)
 - [animation/building_transitions_with_js](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/building_transitions_with_js.md)
+### 2022-12-20 [화]
+- [animation/trai]()
