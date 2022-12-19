@@ -74,3 +74,4 @@
 - [animation/building_transitions_with_js](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/building_transitions_with_js.md)
 ### 2022-12-20 [화]
 - [animation/transition-group](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation&transitions/transition-group.md)
+- [animation/animation_with_vue-router](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/animation%26transitions/animation_with_vue-router.md)
