@@ -80,4 +80,5 @@
 * * *
 ### 2022-12-27 (화)
 - [vuex/vuex](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/vuex.md)
+- [vuex/creating_and_using](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/creating_and_using.md)
 
