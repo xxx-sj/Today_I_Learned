@@ -82,4 +82,6 @@
 - [vuex/vuex](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/vuex.md)
 - [vuex/creating_and_using](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/creating_and_using.md)
 - [vuex/connectiong_components_to_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/connectiong_components_to_state.md)
+- [vuex/intro_mutations](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/intro_mutations.md)
+* * * 
 
