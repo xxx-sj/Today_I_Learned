@@ -84,4 +84,6 @@
 - [vuex/connectiong_components_to_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/connectiong_components_to_state.md)
 - [vuex/intro_mutations](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/intro_mutations.md)
 * * * 
+### 2022-12-28 (수)
+- [vuex/passing_data_to_mutionas](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/passing_data_to_mutionas.md)
 
