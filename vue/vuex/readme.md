@@ -73,4 +73,9 @@ getters는 computed 와 같다고 볼 수 있다. getters는 state의 값을 직
 state 값에 compute 해서 return 한다.
 mutation은 state의 값을 변경하는 methods이 모여있으며, 
 action과 같은경우 비동기 코드가 들어가는 곳이다.
+
+mutation과 action의 차이는 mutation은 동기적 처리여야 하고, action은 비동기적 처리가 가능하다는 차이가 있다.
+mutation이 비동기적 처리가 되었을 경우, 예측이 불가능한 상태가 될 수 있어 그것을 막기위함이고, action은 mutation으로 
+commit을 통해 상태를 간접적으로 변경하지만 action을 호출하기 위한 dispatch function이 promise를 반환하기 때문에
+순서적으로 제어가 가능하다.
 ```
