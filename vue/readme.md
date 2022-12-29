@@ -90,4 +90,5 @@
 ### 2022-12-29 (목)
 - [vuex/async_code_with_actions](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/async_code_with_actions.md)
 - [vuex/action_the_context](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/action_the_context.md)
-
+- [vuex/using-mapper-helpers](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/using-mapper-helpers.md)
+### 2022-12-30 (금)
