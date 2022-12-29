@@ -91,4 +91,5 @@
 - [vuex/async_code_with_actions](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/async_code_with_actions.md)
 - [vuex/action_the_context](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/action_the_context.md)
 - [vuex/using-mapper-helpers](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/using-mapper-helpers.md)
+- [vuex/adding_more_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/adding_more_state.md)
 ### 2022-12-30 (금)
