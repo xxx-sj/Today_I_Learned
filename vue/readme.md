@@ -87,4 +87,6 @@
 ### 2022-12-28 (수)
 - [vuex/passing_data_to_mutionas](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/passing_data_to_mutionas.md)
 - [vuex/intro-getters](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/intro-getters.md)
+### 2022-12-29 (목)
+- [vuex/async_code_with_actions](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/async_code_with_actions.md)
 
