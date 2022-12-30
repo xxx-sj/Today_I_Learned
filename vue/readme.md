@@ -94,3 +94,4 @@
 - [vuex/adding_more_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/adding_more_state.md)
 ### 2022-12-30 (금)
 - [vuex/organize_store_with_modules](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/organize_store_with_modules.md)
+- [vuex/local_module_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/local_module_state.md)
