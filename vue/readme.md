@@ -99,3 +99,4 @@
 - [vuex/structuring_vuex_code_and_files](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/structuring_vuex_code_and_files.md)
 - [vuex/prj/solution_01](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/prj/solution_01.md)
 - [vuex/prj/solution_02](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/prj/solution_02.md)
+- [vuex/prj/solution_03](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/prj/solution_03.md)
