@@ -240,6 +240,8 @@ export default {
 
 
 export default {
+  namespaced: true,
+
   state() {
     return {
       items: [],
@@ -282,6 +284,7 @@ export default {
       state.total -= prodData.price * prodData.qty;
     },
   },
+
   actions: {
     addToCart(context, payload) {
       context.commit('addProductToCart', payload);
@@ -290,13 +293,13 @@ export default {
       context.commit('removeProductFromCart', payload);
     }
   },
-  
+
   getters: {
     products(state) {
       return state.items;
     },
     totalSum(state) {
-      return state.total;
+      return state.total.toFixed(2);
     },
     quantity(state) {
       return state.qty;
