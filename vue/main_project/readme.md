@@ -8,3 +8,4 @@
 - [working_coaches_list_and_list_items](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/working_coaches_list_and_list_items.md)
 - [create_base_components](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/create_base_components.md)
 - [build_coach_detail_component](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/build_coach_detail_component.md)
+- [filtering_coaches](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/filtering_coaches.md)
