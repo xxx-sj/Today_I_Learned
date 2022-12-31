@@ -14,3 +14,4 @@
 - [add_form_validation](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/add_form_validation.md)
 - [working_on_the_contact_form](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/working_on_the_contact_form.md)
 - [storing_requests_vuex](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/storing_requests_vuex.md)
+- [output_incoming_requests](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/output_incoming_requests.md)
