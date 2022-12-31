@@ -10,3 +10,4 @@
 - [build_coach_detail_component](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/build_coach_detail_component.md)
 - [filtering_coaches](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/filtering_coaches.md)
 - [register_form](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/register_form.md)
+- [add_coach_to_vuex](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/add_coach_to_vuex.md)
