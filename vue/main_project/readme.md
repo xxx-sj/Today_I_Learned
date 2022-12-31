@@ -18,3 +18,4 @@
 - [filtering_requests_active_coach](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/filtering_requests_active_coach.md)
 - [sending_put_http_request](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/sending_put_http_request.md)
 - [get_coach_data_from_firebase](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/get_coach_data_from_firebase.md)
+- [rendering_loading_spinner](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/rendering_loading_spinner.md)
