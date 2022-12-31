@@ -11,3 +11,4 @@
 - [filtering_coaches](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/filtering_coaches.md)
 - [register_form](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/register_form.md)
 - [add_coach_to_vuex](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/add_coach_to_vuex.md)
+- [add_form_validation](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/add_form_validation.md)
