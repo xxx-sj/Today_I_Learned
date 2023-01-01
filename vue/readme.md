@@ -87,11 +87,13 @@
 ### 2022-12-28 (수)
 - [vuex/passing_data_to_mutionas](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/passing_data_to_mutionas.md)
 - [vuex/intro-getters](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/intro-getters.md)
+* * *
 ### 2022-12-29 (목)
 - [vuex/async_code_with_actions](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/async_code_with_actions.md)
 - [vuex/action_the_context](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/action_the_context.md)
 - [vuex/using-mapper-helpers](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/using-mapper-helpers.md)
 - [vuex/adding_more_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/adding_more_state.md)
+* * *
 ### 2022-12-30 (금)
 - [vuex/organize_store_with_modules](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/organize_store_with_modules.md)
 - [vuex/local_module_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/local_module_state.md)
@@ -104,4 +106,8 @@
 - [main_project](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project)
 * * * 
 ### 2022-12-31 (토)
+- [main_project](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project)
+* * * 
+* * * 
+### 2023-01-01 (일)
 - [main_project](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project)
