@@ -102,3 +102,6 @@
 - [vuex/prj/solution_03](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/vuex/prj/solution_03.md)
 
 - [main_project](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project)
+* * * 
+### 2022-12-31 (토)
+- [main_project](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project)
