@@ -32,3 +32,4 @@ Vue & Authentication
 vue는 backend server에 login 정보를 보내어 성공한다면 server만 유효성을 검사할 수 있는 token을 발행한다.
 매번 제한적인 데이터를 보낼 때 마다 token을 같이 보낸다.
 ```
+- [adding_authentication_page](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_authentication_page.md)
