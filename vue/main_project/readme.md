@@ -23,3 +23,8 @@
 - [sending_coach_request](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/sending_coach_request.md)
 - [caching_response_data](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/caching_response_data.md)
 - [adding_route_transition](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_route_transition.md)
+
+* * * 
+
+2023-01-04 [수]
+Vue & Authentication
