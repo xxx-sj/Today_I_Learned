@@ -28,3 +28,7 @@
 
 2023-01-04 [수]
 Vue & Authentication
+```
+vue는 backend server에 login 정보를 보내어 성공한다면 server만 유효성을 검사할 수 있는 token을 발행한다.
+매번 제한적인 데이터를 보낼 때 마다 token을 같이 보낸다.
+```
