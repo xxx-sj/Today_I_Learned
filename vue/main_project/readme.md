@@ -33,3 +33,6 @@ vue는 backend server에 login 정보를 보내어 성공한다면 server만 유
 매번 제한적인 데이터를 보낼 때 마다 token을 같이 보낸다.
 ```
 - [adding_authentication_page](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_authentication_page.md)
+* * * 
+2023-01-05 [목]
+- [prepare_vuex](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/prepare_vuex.md)
