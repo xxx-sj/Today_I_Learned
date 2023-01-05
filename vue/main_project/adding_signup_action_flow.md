@@ -35,8 +35,8 @@ export default {
 
     console.log({responseData});
     context.commit('setUser', {
-      token: responseData.idToken,
-      userid: responseData.localId,
+      token: responseData.idToken,                  //idtoken은 fire-base 새로 생성한 유저의 auth id token 이다/.
+      userid: responseData.localId,                // localid는 새로 생성한 유저의 uid 이다.
       tokenExpiration: responseData.expiresIn,
     })
   },
