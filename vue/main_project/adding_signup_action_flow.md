@@ -5,7 +5,9 @@ fire-base 주소
 ```
 (fire-base-rest-api)[https://firebase.google.com/docs/reference/rest/auth#section-create-email-password]
 
-### app-key는 project overview 바퀴모양 내 settings에 존재한다.
+#### app-key는 project overview 바퀴모양 내 settings에 존재한다.
+![image](https://user-images.githubusercontent.com/62305110/211154152-90d989ee-fb10-44e8-b6ac-86d95f7e18c7.png)
+
 
 ```
 auth의 actions을 작성한다 fire-base와 연동
