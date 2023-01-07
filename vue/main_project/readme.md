@@ -42,3 +42,4 @@ vue는 backend server에 login 정보를 보내어 성공한다면 server만 유
 2023-01-07 [토]
 - [add_login_action_and_flow](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/add_login_action_and_flow.md)
 - [attaching_token_to_request](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/attaching_token_to_request.md)
+- [update_ui_based_on_auth_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/update_ui_based_on_auth_state.md)
