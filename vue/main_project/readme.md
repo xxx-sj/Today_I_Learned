@@ -45,3 +45,4 @@ vue는 backend server에 login 정보를 보내어 성공한다면 server만 유
 - [update_ui_based_on_auth_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/update_ui_based_on_auth_state.md)
 - [adding_logout_actions_and_flow](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_logout_actions_and_flow.md)
 - [authentication_and_routing_with_navigation_guards](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/authentication_and_routing_with_navigation_guards.md)
+- [adding_auto_login](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_auto_login.md)
