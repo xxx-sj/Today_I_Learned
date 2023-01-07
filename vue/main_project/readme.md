@@ -38,3 +38,6 @@ vue는 backend server에 login 정보를 보내어 성공한다면 server만 유
 - [prepare_vuex](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/prepare_vuex.md)
 - [adding_signup_action_flow](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_signup_action_flow.md)
 - [loading_spinner%26error_dialog](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/loading_spinner%26error_dialog.md)
+* * *
+2023-01-07 [토]
+- []()
