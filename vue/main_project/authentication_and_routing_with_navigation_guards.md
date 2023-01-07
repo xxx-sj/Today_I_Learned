@@ -454,7 +454,7 @@ next인자로는 boolean값을 전달 할 수 있는데, 기본적으로는 true
 ```
 하나 주의해야할 점은 현재 login 상태값을 vuex/store 에만 저장하고 있기 때문에 auth 페이지 같은경우 로그인 없이도 접근이 
 가능하나, url을 통해 테스트 진행시 http://localhost:8080/auth를 작성하고 엔터를 치면 vue app이 restart되면서 결국에 
-vue/store가 초기화되면서 데이터가 지워진다. 따라서 login이 풀리게 된다.
+vue/store가 초기화되면서 데이터가 지워진다. 따라서 login이 풀리게 된다. [router-link로 이동시에는 풀리지 않음 ]
 ```
 
 ##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21880050#content
