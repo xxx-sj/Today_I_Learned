@@ -34,12 +34,12 @@ vue는 backend server에 login 정보를 보내어 성공한다면 server만 유
 ```
 - [adding_authentication_page](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_authentication_page.md)
 * * * 
-2023-01-05 [목]
+###2023-01-05 [목]
 - [prepare_vuex](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/prepare_vuex.md)
 - [adding_signup_action_flow](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_signup_action_flow.md)
 - [loading_spinner%26error_dialog](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/loading_spinner%26error_dialog.md)
 * * *
-2023-01-07 [토]
+###2023-01-07 [토]
 - [add_login_action_and_flow](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/add_login_action_and_flow.md)
 - [attaching_token_to_request](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/attaching_token_to_request.md)
 - [update_ui_based_on_auth_state](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/update_ui_based_on_auth_state.md)
@@ -47,5 +47,5 @@ vue는 backend server에 login 정보를 보내어 성공한다면 server만 유
 - [authentication_and_routing_with_navigation_guards](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/authentication_and_routing_with_navigation_guards.md)
 - [adding_auto_login](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_auto_login.md)
 * * *
-2023-01-08 [일]
+###2023-01-08 [일]
 - [adding_auto_logout](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project/adding_auto_logout.md)
