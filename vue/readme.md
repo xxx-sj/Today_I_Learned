@@ -124,4 +124,5 @@
 * * *
 ### 2023-01-08 (일)
 - [main_project](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project)
+- [optimization_using_asynchronous_components](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/optimizing_and_deploying_app/optimization_using_asynchronous_components.md)
 * * *
