@@ -122,3 +122,6 @@
 ### 2023-01-07 (토)
 - [main_project](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project)
 * * *
+### 2023-01-08 (일)
+- [main_project](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/main_project)
+* * *
