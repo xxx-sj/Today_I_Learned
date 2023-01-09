@@ -130,4 +130,5 @@
 * * *
 ### 2023-01-09 (월)
 - [what_is_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/what_is_composition_api.md)
+- [replacing_data_with_refs](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/replacing_data_with_refs.md)
 * * *
