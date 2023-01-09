@@ -129,5 +129,5 @@
 - [optimizing_and_deploying_app/deploying_app_with_fire-base](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/optimizing_and_deploying_app/deploying_app_with_fire-base.md)
 * * *
 ### 2023-01-09 (월)
-- []()
+- [what_is_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/what_is_composition_api.md)
 * * *
