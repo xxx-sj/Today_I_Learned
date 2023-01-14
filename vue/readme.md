@@ -133,5 +133,5 @@
 - [replacing_data_with_refs](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/replacing_data_with_refs.md)
 * * *
 ### 2023-01-14 (토)
-- [what_is_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/what_is_composition_api.md)
+- [build_reactive_objects](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/build_reactive_objects.md)
 * * *
