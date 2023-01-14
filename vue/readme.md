@@ -137,4 +137,5 @@
 - [reactivity_deep_dive](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/reactivity_deep_dive.md)
 - [replacing_methods_with_regular_functions](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/replacing_methods_with_regular_functions.md)
 - [replacing_computed_properties_with_computed_function](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/replacing_computed_properties_with_computed_function.md)
+- [two_way_binding_and_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/two_way_binding_and_composition_api.md)
 * * *
