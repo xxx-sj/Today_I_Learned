@@ -134,4 +134,5 @@
 * * *
 ### 2023-01-14 (토)
 - [build_reactive_objects](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/build_reactive_objects.md)
+- [reactivity_deep_dive](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/reactivity_deep_dive.md)
 * * *
