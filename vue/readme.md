@@ -151,4 +151,5 @@
 - [migrating_remain_component](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/migration/migrating_remain_component.md)
 - [routing_params_and_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/migration/routing_params_and_composition_api.md)
 - [route_and_router_object_and_the_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/migration/route_and_router_object_and_the_composition_api.md)
+- [vuex_with_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/migration/vuex_with_composition_api.md)
 * * *
