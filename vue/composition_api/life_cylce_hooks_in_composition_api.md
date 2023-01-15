@@ -6,7 +6,7 @@
 vue에서 create 관련 life hook을 제외한 다른 lifecycle hook을 import 받을 수 있다.
 ```
 
-```
+```vue
 //UserData.vue
 
 <template>
