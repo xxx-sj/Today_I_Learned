@@ -140,3 +140,6 @@
 - [two_way_binding_and_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/two_way_binding_and_composition_api.md)
 - [working_with_watcher](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/working_with_watcher.md)
 * * *
+### 2023-01-15 (일)
+- [how_to_use_template_refs](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/how_to_use_template_refs.md)
+* * *
