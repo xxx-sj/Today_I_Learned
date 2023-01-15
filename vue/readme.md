@@ -145,4 +145,5 @@
 - [components_props_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/components_props_composition_api.md)
 - [emitting_custom_events](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/emitting_custom_events.md)
 - [working_with_provide_inject](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/working_with_provide_inject.md)
+- [life_cylce_hooks_in_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/life_cylce_hooks_in_composition_api.md)
 * * *
