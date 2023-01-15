@@ -144,4 +144,5 @@
 - [how_to_use_template_refs](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/how_to_use_template_refs.md)
 - [components_props_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/components_props_composition_api.md)
 - [emitting_custom_events](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/emitting_custom_events.md)
+- [working_with_provide_inject](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/working_with_provide_inject.md)
 * * *
