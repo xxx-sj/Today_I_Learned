@@ -9,6 +9,8 @@ vue instance에 사용한다.
 ```
 
 
+
+
 ```js
 //main.js
 
