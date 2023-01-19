@@ -189,4 +189,6 @@ app.mount('#app');
 ```
 module의 key값은 임의로 지을 수 있다.
 ```
+
+
 ##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture
