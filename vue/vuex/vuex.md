@@ -25,5 +25,7 @@ Managing app-wide / global state can be difficult
 vuex가 state를 갖게 되면서 Fat components 를 막을 수 있고, unpredictable 한 문제를 해소할 수 있고, 
 error-prone 를 방지할 수 있다.
 ```
-
+  
+  
+  
 ##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture
