@@ -19,6 +19,8 @@ export default {
 </script>
 ```
 
+
+
 ```
 userStore()를 통해 store에 대한 접근권한을 얻는다.
 ```
