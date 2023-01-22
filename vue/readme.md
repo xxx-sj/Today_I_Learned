@@ -157,4 +157,5 @@
 - [mixins/use_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/use_mixins.md)
 - [mixins/understanding_mixin_merging](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/understanding_mixin_merging.md)
 - [mixins/global_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/global_mixins.md)
+- [mixins/global_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/global_mixins.md)
 * * *
