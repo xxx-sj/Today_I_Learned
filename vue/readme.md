@@ -158,4 +158,5 @@
 - [mixins/understanding_mixin_merging](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/understanding_mixin_merging.md)
 - [mixins/global_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/global_mixins.md)
 - [mixins/global_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/global_mixins.md)
+- [mixins/disadvantages_of_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/disadvantages_of_mixins.md)
 * * *
