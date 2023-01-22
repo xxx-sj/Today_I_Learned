@@ -161,4 +161,5 @@
 - [mixins/disadvantages_of_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/disadvantages_of_mixins.md)
 - [custom_hooks_composables_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/custom_hooks_composables_composition_api.md)
 - [more_custom_composition_function](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/more_custom_composition_function.md)
+- [why_hooks](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/why_hooks.md)
 * * *
