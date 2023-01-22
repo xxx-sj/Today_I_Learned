@@ -24,4 +24,7 @@
 ### 2023-01-15 [일]
 - [Vue.js](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue)
 * * *
+### 2023-01-22 [일]
+- [Vue.js](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue)
+* * *
 
