@@ -26,5 +26,6 @@
 * * *
 ### 2023-01-22 [일]
 - [Vue.js](https://github.com/xxx-sj/Today_I_Learned/tree/master/vue)
+- [java/multi_thread](https://github.com/xxx-sj/Today_I_Learned/tree/master/java)
 * * *
 
