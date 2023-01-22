@@ -163,4 +163,5 @@
 - [more_custom_composition_function](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/more_custom_composition_function.md)
 - [why_hooks](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/why_hooks.md)
 - [creating_search_hook](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/creating_search_hook.md)
+- [custom_sort_hook](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/custom_sort_hook.md)
 * * *
