@@ -153,11 +153,12 @@
 - [route_and_router_object_and_the_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/migration/route_and_router_object_and_the_composition_api.md)
 - [vuex_with_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/composition_api/migration/vuex_with_composition_api.md)
 * * *
-### 2023-01-22 ()
+### 2023-01-22 (일)
 - [mixins/use_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/use_mixins.md)
 - [mixins/understanding_mixin_merging](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/understanding_mixin_merging.md)
 - [mixins/global_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/global_mixins.md)
 - [mixins/global_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/global_mixins.md)
 - [mixins/disadvantages_of_mixins](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/disadvantages_of_mixins.md)
 - [custom_hooks_composables_composition_api](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/custom_hooks_composables_composition_api.md)
+- [more_custom_composition_function](https://github.com/xxx-sj/Today_I_Learned/blob/master/vue/mixins/composition_api/more_custom_composition_function.md)
 * * *
