@@ -8,4 +8,5 @@
 - [threads_creation](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/threads_creation.md)
 - [thread_inheritance](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/thread_inheritance.md)
 - [thread_termination_daedon_threads](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/thread_termination_daedon_threads.md)
+- [joining_threads](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/joining_threads.md)
 * * * 
