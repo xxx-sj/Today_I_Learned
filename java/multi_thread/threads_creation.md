@@ -50,4 +50,30 @@ Current thread priority is 10
 start() method로 새로운 thread를 실행한 결과보다 after가 먼저 나온 이유는 아직 스레드가 scheduled [예약] 되지 않은 상태이고
 시간이 좀 걸리며, os에 의해 synchronously 으로 발생하기 때문이다.
 
+* * *
+
+스레드 생성 시 스레드에 이름을 붙일 수 있는데 생성한 스레드의 메소드인 setName() 을 통해 실행할 스레드의 이름을 설정 할 수 있다.
+```java
+thread.setName("New Worker thread")
+```
+
+또한 실행할 스레드의 우선순위를 정할 수 있다
+```java
+ thread.setPriority(Thread.MAX_PRIORITY);
+ // Thread.MAX_PRIORITY = 10
+ // Thread.MIN_PRIORITY = 1
+```
+
+* * *
+생성한 thread에서 error가 발생했을 때 catch할 handler는 thread 인스턴스의 setUncaughtExceptionHandler(); 를 통해 catch 할 수 있다.
+```java
+thread.setUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+    @Override
+    public void uncaughtException(Thread t, Throwable e) {
+        System.out.println("A critical error happend in thread" + t.getName()
+        + " the error is " + e.getMessage());
+    }
+});
+```
+
 ##### 출처: https://www.udemy.com/course/java-multithreading-concurrency-performance-optimization/learn/lecture/11198608#content
