@@ -10,3 +10,4 @@
 * * *
 ### 2023-01-25 [수]
 - [init_setting](https://github.com/xxx-sj/Today_I_Learned/blob/master/Git/setting/init_setting.md)
+* * *
