@@ -30,6 +30,8 @@ context switch cost는 많은 스레드를 deal with 할때 not cheap 하고, is
 Bonus는 OS에 의해 모든 epoch의 thread는 조정된 값이다.
 
 
+
+
 ##### 참고: https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.State.html
             https://developer.ibm.com/tutorials/l-completely-fair-scheduler/
             
