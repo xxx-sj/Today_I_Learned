@@ -39,4 +39,4 @@ export default {
 </script>
 ```
 
-#####출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture
+##### 출처: https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture
