@@ -13,3 +13,6 @@
 - [OS_fundamentals](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/OS_fundamentals.md)
 - [optimizing_for_latency_image_processing](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/optimizing_for_latency_image_processing.md)
 * * * 
+### 2023-02-02 [목]
+- [optimizing_for_throughput-HTTP_server&Jmeter](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/optimizing_for_throughput-HTTP_server&Jmeter.md)
+* * * 
