@@ -29,5 +29,31 @@
  push 된다. 이 후 main method가 끝나면, stack frame 또한 invalidated 된다. 이것이 stack이라고 불리는 이유이다.   
  
  모든 메소드 프레임은 할당되고, invalidated 되고 last in, first out 순서로
+ 
+ 
+ ### heap
+- 프로세스에 속하는 공유 메모리 영역이다. thread는 이 heap에 저장된 데이터를 공유하여 사용할 수 있다.
+- 모든 object는 heap에 저장된다. 기본적으로 new 연산자를 사용하여 할당할 수 있는 모든 것이다.
+  - String
+  - object
+  - Collection
+  - ...
+
+- members of classes 도 모두 heap에 저장된다. primitive member든지, object 그 자체든 모두 heap에 저장된다.
+- 또한 static variables 또한 힙에 위치한다.
+  정적 변수들은 실제로 해당 클래스와 연결된 클래스 객체의 member이기 때문이다.
+
+- heap은 Governed 그리고, 가비지 컬렉터에 의해 관리된다.
+- member 들도 object 와 같은 life-cycle을 가지며, static 변수는 app이 실행되는 동안 heap에 영원히 머물게 된다.
+
+
+### Objects vs References
+```java
+Object var1 = new Object();
+Object ver2 = var1;
+```
+object와 reference는 다르다. 위에서 처럼 var1을 선언하고 var2에 var1을 초기화 하게되면, var1과, var2는 object의 주소를 갖고있는 변수가 되며.
+메서드 내에서 references를 선언하게 되면. 선언된 값은 stack에 할당되고 만약, 클래스의 멤버라면, heap에도 할당된다.
+반대로 obejcts는 항상 heap에 할당된다.
 
 ##### 출처: https://www.udemy.com/course/java-multithreading-concurrency-performance-optimization/learn/lecture/11199598#content
