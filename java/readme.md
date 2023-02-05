@@ -19,4 +19,5 @@
 ### 2023-02-05 [일]
 - [stack%26heap_memory_regions](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/data_sharing_between_thread/stack%26heap_memory_regions.md)
 - [resource_sharing_%26_introduction_to_critical_sections](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/data_sharing_between_thread/resource_sharing_%26_introduction_to_critical_sections.md)
+- [critical_section_and_synchroniation](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Concurrency_challengse_and_solutions/critical_section_and_synchroniation.md)
 * * *
