@@ -16,3 +16,7 @@
 ### 2023-02-02 [목]
 - [optimizing_for_throughput-HTTP_server&Jmeter](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/optimizing_for_throughput-HTTP_server&Jmeter.md)
 * * * 
+### 2023-02-05 [일]
+- [stack%26heap_memory_regions](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/data_sharing_between_thread/stack%26heap_memory_regions.md)
+- [resource_sharing_%26_introduction_to_critical_sections](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/data_sharing_between_thread/resource_sharing_%26_introduction_to_critical_sections.md)
+* * *
