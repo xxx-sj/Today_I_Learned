@@ -40,5 +40,8 @@
 ### 2023-02-03 [목]
 - [java/multi_thread](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/multi_thread)
 * * *
+### 2023-02-05 [일]
+- [java/multi_thread](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/multi_thread)
+* * *
 
 
