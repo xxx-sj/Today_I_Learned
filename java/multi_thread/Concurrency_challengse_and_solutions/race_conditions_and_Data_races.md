@@ -7,6 +7,7 @@
 - 문제의 핵심은 공유 리소스에 대한 비원자적 실행 [ non atomic operations ] 작업
 
 
+
 ### 경쟁 상태 해결법
 - 경쟁 상태가 발생하는 임계구역의 식별
 - synchronized block을 이용한 임계구역의 보호  
