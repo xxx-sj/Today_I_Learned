@@ -83,5 +83,14 @@ cpu나 compiler 입장에서는 두 개의 메소드는 논리적으로 동일�
     reordered 되더라도 하나의 스레드만 공유 변수에 접근할 수 있기 때문에  data race가 일어나지 않는다.
 - volatile 키워드로 공유 변수 선언
     오버헤드가 줄고, order가 보장된다.
+    
+    
+    
+    
+### Volatile
+주의해서 사용해야 한다.   
+long 및 double에 대한 read/write, form/to  race condition 을 해결합니다    
+data race의 경우 volatile keyword는 order를 보장한다.   
+solves all data races by guaranteeing order
 
 ##### 출처: https://www.udemy.com/course/java-multithreading-concurrency-performance-optimization/learn/lecture/11200014#content
