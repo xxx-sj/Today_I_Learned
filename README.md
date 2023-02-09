@@ -44,7 +44,7 @@
 - [java/multi_thread](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/multi_thread)
 * * *
 ### 2023-02-09 [목]
-- [java/multi_thread](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/multi_thread)
+- [java](https://github.com/xxx-sj/Today_I_Learned/tree/master/java)
 * * *
 
 
