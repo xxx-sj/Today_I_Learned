@@ -22,4 +22,4 @@
 - [critical_section_and_synchroniation](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Concurrency_challengse_and_solutions/critical_section_and_synchroniation.md)
 * * *
 ### 2023-02-09 [목]
--[thinking_in_java](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/books/thinking_in_java)
+- [thinking_in_java](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/books/thinking_in_java)
