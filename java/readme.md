@@ -21,3 +21,5 @@
 - [resource_sharing_%26_introduction_to_critical_sections](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/data_sharing_between_thread/resource_sharing_%26_introduction_to_critical_sections.md)
 - [critical_section_and_synchroniation](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Concurrency_challengse_and_solutions/critical_section_and_synchroniation.md)
 * * *
+### 2023-02-09 [목]
+-[](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/books/thinking_in_java)
