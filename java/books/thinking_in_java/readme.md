@@ -7,3 +7,7 @@
 ### 2023-02-11 [토]
 - [day_2 동시성 (1040p ~ 1044p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_2/ch21.%EB%8F%99%EC%8B%9C%EC%84%B1.md)
 - [day_2 동시성(1044p ~ 1054p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_2/ch21.%EB%8F%99%EC%8B%9C%EC%84%B12.md)
+* * * 
+### 2023-02-12 [일]
+- []()
+* * * 
