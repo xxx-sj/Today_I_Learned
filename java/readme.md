@@ -26,3 +26,6 @@
 * * * 
 ### 2023-02-11 [토]
 - [thinking_in_java](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/books/thinking_in_java)
+* * * 
+### 2023-02-12 []
+- [thinking_in_java](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/books/thinking_in_java)
