@@ -9,5 +9,5 @@
 - [day_2 동시성(1044p ~ 1054p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_2/ch21.%EB%8F%99%EC%8B%9C%EC%84%B12.md)
 * * * 
 ### 2023-02-12 [일]
-- [day_3 동시성 (1055p ~ 1062p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_3/ch21.동시성.md)
+- [day_3 동시성 (1061p ~ 1067p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_3/ch21.동시성.md)
 * * * 
