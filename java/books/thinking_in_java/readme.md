@@ -12,3 +12,5 @@
 - [day_3 동시성 (1061p ~ 1067p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_3/ch21.동시성.md)
 - [day_3 자원공유(1067p ~ 1070p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_3/ch21.%EC%9E%90%EC%9B%90%EA%B3%B5%EC%9C%A0.md)
 * * * 
+### 2023-02-13 [월]
+- [(1070p ~ )]()
