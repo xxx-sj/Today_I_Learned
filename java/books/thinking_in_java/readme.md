@@ -13,4 +13,4 @@
 - [day_3 자원공유(1067p ~ 1070p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_3/ch21.%EC%9E%90%EC%9B%90%EA%B3%B5%EC%9C%A0.md)
 * * * 
 ### 2023-02-13 [월]
-- [(1070p ~ 1071p)]()
+- [day_4 자원공유(1070p ~ 1071p)](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/books/thinking_in_java/day_4/%EC%9E%90%EC%9B%90%EA%B3%B5%EC%9C%A0.md)
