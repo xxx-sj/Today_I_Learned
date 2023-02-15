@@ -1,7 +1,5 @@
 # Locking Strateiges and deadlocks
 
-
-
 ## >> deadlock
 두 개의 스레드가 공유된 자원을 서로 사용하려다 발생하는 교착상태를 말한다.    
 스레드A가 A 리소스에 대해 lock을 걸고, 또 다른 스레드B는 B 리소스에 대해 lock을 걸어놓은 상태에서, A스레드가 B 스레드의 자원을 사용하려 한다면, 현재 리소스B에 대하여
