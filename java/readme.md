@@ -34,5 +34,5 @@
 - [thinking_in_java](https://github.com/xxx-sj/Today_I_Learned/tree/master/java/books/thinking_in_java)
 - [multi_thread/Locking_Strateiges_and_Deadlocks](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/dead_lock/Locking_Strateiges_and_Deadlocks.md)
 * * *
-### 2023-02-17 [금]
-- []()
+### 2023-02-19 [일]
+- [try_lock_and_interruptible_lock](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Reentrant_lock/try_lock_and_interruptible_lock.md)
