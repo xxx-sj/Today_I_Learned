@@ -8,7 +8,7 @@
 기존
 ```java
 
-Object ockObject = new Object();
+Object lockObject = new Object();
 Resource resource = new Resource();
 
 public void method() {
@@ -188,6 +188,23 @@ tryLock 또한 lock을 획득하면서 true를 반환하여 lock이 현재스레
 tryLock은 이미 다른 thread가 lock을 가지고 있을 경우 해당 메소드는 block 하지 않는다. 대신 tryLock은 즉시 false를 반환하여    
 lock이 우리에게 속하지 않으며 공유 리소스를 사용해서는 안된다는 것을 알려준다. 그런다음 thread는 else문에서 일부 resoure가 필요없는    
 다른 코드를 실행하기 위해  이동할 수 있다.
+
+tryLock [x]
+```java
+
+public void run() {
+  lock.tryLock();
+  try {
+    someOperation();
+  }
+  finally {
+    lock.unlock;
+  }
+}
+```
+위와 같이 사용하면 tryLock으로 반환된 값이 true false 체크하지 않으면, try문을 타게되고 자연히 someOperation()을 실행하게된다.     
+따라서 공유 변수 및 리소스 수정이 포함될 수 있는 실행이 수행된다. 따라서 크리티컬 섹션은 사실상 보호되지 않으며, 클래스에 경쟁 조건이 있을    
+수 있다. if를 통해 값 확인하기. 또한 다른 스레드가 획득한 lock에 대해 lock.unlock을 호출하면 예외가 발생하고 스레드가 충돌한다.     
 
 Notice
 - 어떠 상황에서도 lock 상태에 관계없이 tryLock메서드가 차단되지 않는 다는 점에 유의할 것
