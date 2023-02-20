@@ -40,3 +40,4 @@
 * * * 
 ### 2023-02-20 [월]
 - [scalable_producer_consumer_implementation](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Inter-thread_communication/Semaphore/scalable_producer_consumer_implementation.md)
+- [condition_variables-all_purpose_and_inter-thread_communication](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Inter-thread_communication/condition_variables-all_purpose_and_inter-thread_communication.md)
