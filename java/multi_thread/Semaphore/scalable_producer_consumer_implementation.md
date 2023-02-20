@@ -1,4 +1,4 @@
-# Scalalbe_producer_consumer_implementation
+# scalable_producer_consumer_implementation
 
 ## Introduction
 
