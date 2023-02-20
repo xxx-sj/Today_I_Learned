@@ -39,4 +39,4 @@
 - [user_interface_application_example + udemy code](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Reentrant_lock/user_interface_application_example.md)
 * * * 
 ### 2023-02-20 [월]
-- [Scalalbe_producer_consumer_implementation](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Semaphore/Scalalbe_producer_consumer_implementation.md)
+- [scalable_producer_consumer_implementation](https://github.com/xxx-sj/Today_I_Learned/blob/master/java/multi_thread/Inter-thread_communication/Semaphore/scalable_producer_consumer_implementation.md)
