@@ -13,7 +13,7 @@
 * * * 
 ### Thread.interrupt()
 thread가 일시 정지 상태에 있을 때 [ thread.sleep(), waiting, timed_waiting, blocked ... ] InterruptedExcpetion을 발생 시키는 역할을 한다.
-정지 사앹에서 interrupt()를 call하게 되면 error를 발생시키면서 thread는 종료 된다     
+정지 상태에서 interrupt()를 call하게 되면 error를 발생시키면서 thread는 종료 된다     
 interrupt() 메소드는 스레드가 실행 대기 또는 실행 상태에 있을 때는 예외가 발생하지않고, 해당 스레드가 이 후 일시 정지 상태가 되면 interrupt가 발생하게 된다.    
 
 thread.sleep()을 사용할 때 sleep method에서 InterruptedException를 throw하는 것을 확인할 수 있다.
@@ -68,6 +68,35 @@ public class Main1 {
             }
         }
     }
+}
+```
+
+```java
+void main() {
+ Thread t = new TestThread();
+ t.start();
+ t.inturrupt();
+}
+
+class TestThreadt {
+ void run() {
+   for(~; ~ ; ) {
+    result.muliply(sumNumber);
+   }
+ }
+}
+```
+만약 위와 같은 조건에서 for문이 수십만번 돈다고 가정할 때, 해당 for문을 종료시키고 싶어서 inturrupt()를 call해도 종료되지 않는다 
+이유는 inturrupt를 처리할 로직이 없기 때문이다. sleep에서는 catch문을 타게 되어 종료되지만, 위와같은 코드에서는 catch와 같은 로직이 없기 때문이다.
+만약, 위와 같은 경우가 있다면 먼저 시간이 오래걸리는 스팟을 찾은 후 **Thread.currentThread().isInterrupted()** 를 호출한 후 종료 로직을 넣는다.
+
+```java
+
+for(~ ; ~ ; ~) {
+ if(Thread.currentThread().isInterrupted()){
+  break;
+ }
+ //do somthing ...
 }
 ```
 
