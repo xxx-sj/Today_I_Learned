@@ -68,6 +68,11 @@ write lock은 오직 한개의 스레드만 접근이 가능하다.
     [writer lock 획득되면 어떤 스레드도 read lock을  획득할 수 없습니다.]
 - if at least one thread holds a read lock, no thread can acquire a write lock
     [ 하나 이상의 스레드가 읽기 잠금을 보유하고 있으면 어떤 스레드도 쓰기 잠금을 획득할 수 없습니다. ]
+    
+## ReentrantReadWriteLock 정리
+write와 read 상호 간 lock은 thread간 하나만 점유할 수 있으며, [ threadA가 read lock을 점유하고 있으면 threadB가 write lock을 점유 할 수 없다. ]    
+readLock같은 경우 여러 스레드가 동시에 점유할 수 있다. [writeLock 점유하지않은 상태에서 readLock을 점유하고 있을 때 여러 스레드가 점유 가능 ] 이때     
+몇 개의 스레드가 점유 중인지 ReadLock에서 count하고 있다.   
 
 
 ## Pracical use case
