@@ -4,6 +4,7 @@
 
 - works just like the synchronized keyword applied on an object [개체에 적용된 동기화된 키워드처럼 작동합니다.]
 - Requires explicit locking and unlocking [명백한 lokcing과 unlocking이 필요함]
+- unlock 하지 않으면, dead lock의 원인이 될 수 있다.
 
 기존
 ```java
