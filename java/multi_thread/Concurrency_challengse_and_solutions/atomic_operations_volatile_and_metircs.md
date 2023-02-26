@@ -2,6 +2,9 @@
 
 ### atomic operations
 - 모든 참조 할당은 atomic이다.
+    Object a = new Object();
+    Object b = new Object();
+    a = b; // atomic
 - we can get and set referencesto objects atomically.
 
 즉, object의 reference를 single operation에서 안전하게 변경할 수 있다.
