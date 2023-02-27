@@ -47,17 +47,43 @@ void method() {
   semaphore.acquire(); // thread is blocked
 }
 ```
+위와같은 상황에서는 다른 스레드가 세마포어를 릴리즈 해주어야 block된 thread가 깨어난다.     
+세마포어를 얻지 않은 스레드도 세마포어를 릴리즈 할 수 있기 때문이다.
 
 
 - semaphore can be released by any thread [ 모든 스레드에서 세마포어를 해제할 수 있습니다. ]
 - even can be released by a thread that hasnt't actually acquired it [ 실제로 획득하지 않은 스레드에 의해 해제될 수도 있습니다. ]
+
+```java
+
+Semaphore sem = new Semaphore(1);
+
+sem.acquire();
+useSharedResource();
+sem.release();
+
+
+
+
+//
+
+sem.release();
+...
+sem.acquire();
+useSharedResource();
+sem.release();
+```
+위의 예시)
 1개의 세마포어를 선언하고 acquire로 얻은 쓰레드가 resource에 접근중인데, 다른 스레드가 접근하여 permit을 release하고, 해당 스레드가 acquire하게    
-되면 동시에 2개의 thread가 임계영역에 접근하게 된다. 명백한 버그
+되면 동시에 2개의 thread가 임계영역에 접근하게 된다. 명백한 버그     
+lock에서는 다른 락은 락이 풀린 스레드에만 락을 걸 수 있기 때문에 위와같은 상황이 발생하지 않는다.
+
+세마포어를 사용해야 하는 경우 => 생산자 소비자 [ Producer Consumer ]
 
 
 ## Producet Consumer
 ```java
-Semaphore full = new Semaphore(0);
+Semaphore full = new Semaphore(0); // 초기 full에 acquire하는 thread를 block 되게한다.
 Semaphore empty = new Semaphore(1);
 Item imte = null; // producer와 consumber에 공유될 자원
 
@@ -85,8 +111,8 @@ empty 세마포어를 acquire를 호출하면, consumer에서 release할 때까�
 item을 queue로 변경하면 많은 producer와 consumer를 쓸 수 있다.
 ```java
 Semaphore full = new Semaphore(0);
-Semaphore empty = new Semaphore(CAPACITY);
-Queue queue = new ArrayDeque(); // producer와 consumber에 공유될 자원
+Semaphore empty = new Semaphore(CAPACITY); //CAPACITY queue 용량
+Queue queue = new ArrayDeque(); // producer와  consumber에 공유될 자원
 Lock lock = new ReentrantLock() // 동시 엑세스 하는 것을 보호하기 위한 lock [producer, consumer 둘다. ]
 
 
@@ -110,10 +136,12 @@ while(true) {
   full.release();
 }
 ```
+소비자와 생산자 여러 개가 큐에 동시에 접근하는 상황을 대비해서 ReentrantLock을 사용한다.    공유변수 queue에 대한 get 하거나, put할 때      
+lock을 건다.    
 producer는 item을 공유된 변수에 직접적으로 생산하는 것이 아닌, 별도로 제공하고, producer와 consumer에 공유된 queue에 제공한다.     
 queue에 offring하기전에 queue를 lock하고 queue에 아이템이 추가되면 lock을 해제한다.
 capacity를 사용하여 queue size를 정의하면, queue의 크기가 무한정 늘어나지 않는다는 것을 보장할 수 있다. consumer가 producer를 따라 잡을   
-수 있다.
+수 있다. [ producer가 생산하는 양을 소비자 consumer가 따라갈 수 있게 한다.  세마포어를 이용했기 때문에 ]
 
 the producer consumer pattern은 다중 스레드 응용 프로그램에서 현대에서 매우 흔한 것이다.
 actor model을 사용하는 프레임워크와 스레드 간에 작업 작업을 분산하는 데 사용됩니다.     
