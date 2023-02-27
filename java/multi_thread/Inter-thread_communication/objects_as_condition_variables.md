@@ -80,6 +80,15 @@ object.notifyAll()             condition.sinalALl()
 
 
 
+```
+예제 코드 참조 wait-notify-example
+```
+
+계속 증가하게 된다면, 생산자가 생산하는 양을 소비자가 따라가지 못하여 메모르 부족에러가 날 수 있다.    
+입력 스트림이 큰 파일에서 들어온다면 예를들어 네트워크 스트림.,
+이것을 방지하기위해 생산자에 백프레셔를 적용할 방법이 필요하다.
+큐에 최적 용량을 정한다. capacity = 5
+
 
 
 ##### 출처: https://www.udemy.com/course/java-multithreading-concurrency-performance-optimization/learn/lecture/13603336#content
