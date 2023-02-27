@@ -14,37 +14,42 @@ Object class는 wait(), notify(), notifyAll() method를 갖고있다.
 - to call wait(), notify(), or notifyAll() we need to acquire the monitor of that object(use synchronized on that object)
  먼저 객체를 동기화 해야한다.
 
+**wait(), notify() or notifyAll() 을 호출할 때 주의할 건 먼저 객체를 동기화 해야 한다는 것이다.**
 
 ```java
+//클래스가 있고 여러 스레드가 클래스 객체를 공유하고 있다.
 public class MySharedClass {
 
-  private boolean isComplete = false; //일부 작업이 수행되었는지 여부를 나타내는 변수
+  private boolean isComplete = false; //작업의 완료 상태를 알려주는 변수
+  
   //완료될 때 까지 기다리는 메소드
   public void waitUntilComplete() {
     sysnchronized(this) { // 자기 자신을 동기화로 묶음
-      while(isComplete == false) {
-        this.wait() // 자기 자신을 wait 상태로 만듬 /스레드는 완료될 떄 까지 기다림
+      while(isComplete == false) { //complete 변수가 true인지 확인
+        this.wait() // 참이 아니면 스레드는 wait 상태가 되고 cpu를 완전히 포기해 버린다.
       }
     }
   }
 }
 
-//동시에 다른 스레드가 task를 끝내고 같은 object의 complete method를 호출한다.
+//병렬적으로 다른 스레드가 작업을 완료할 수 있고 같은 객체 [class]에 complete 메서드를 호출할 수 있다.
 //isComplete = true로 바꾸고,  notify() method를 call하여 첫 번째 스레드를 깨운다.
 public void complete() {
   synchronized(this) {
-    this.isComplete = true;
-    this.notify();
+    this.isComplete = true; // isComplete 변수를 참으로 변경하고 나서
+    this.notify(); // 첫 스레드를 깨울 notify를 call한다.
   }
 }
 ```
+
+어떤 객체라도 사용할 수 있지만 현재 객체를 사용하면 메서드 선언에 synchronized 키워드를 옮기고 암시적인 wait 메서드    
+앞의 키워드를 제거해 코드를 정리할 수 있다.
 
 ```java
 public class MySharedClass {
 
   private boolean isComplete = false;
   public void synchronized waitUntilComplete() {
-    sysnchronized(this) { // 자기 자신을 동기화로 묶음
       while(isComplete == false) {
         wait() 
       }
@@ -54,7 +59,6 @@ public class MySharedClass {
 
 
 public void synchronized complete() {
-  synchronized(this) {
     isComplete = true;
     notify();
   }
@@ -72,6 +76,8 @@ object.notify();               condition.signal();
 object.notifyAll()             condition.sinalALl()
 
 ```
+조건 변수와 매우 비슷하지만, 현재 객체를 lock 그리고 조건 변수로 사용하고 있다.
+
 
 
 
