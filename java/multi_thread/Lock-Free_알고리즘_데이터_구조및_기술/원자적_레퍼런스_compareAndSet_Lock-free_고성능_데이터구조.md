@@ -246,3 +246,7 @@ public class Main {
 
 ```
 ##### 출처: https://www.udemy.com/course/java-multi-threading/learn/lecture/30800378#content
+  
+  ##### 참고: https://www.youtube.com/watch?v=TRGRnCAF4iQ
+              https://www.youtube.com/watch?v=6a4Id3lj7Sw
+              https://medium.com/@MPogrebinsky/top-3-projects-for-java-concurrency-8c0752724e72
