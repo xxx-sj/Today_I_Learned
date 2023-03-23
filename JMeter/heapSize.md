@@ -17,3 +17,6 @@ ps -ef | grep jmeter // 실행되고 있는 프로세스로 확인하기
 
 ```
 
+
+https://superuser.com/questions/302754/increase-the-maximum-number-of-open-file-descriptors-in-snow-leopard
+https://sqa.stackexchange.com/questions/17732/maximum-number-of-threads-in-jmeter
