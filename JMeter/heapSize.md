@@ -4,8 +4,8 @@
 
 JMeter가 설치된 폴더 /bin 으로 이동하여 아래 명령어 입력
 ```
-export HEAP="-Xms2g[최소] -Xmx2g [최대] -XX:MaxMetaspaceSize=256m"
-
+export HEAP="-Xms2g[최소] -Xmx10g [최대] -XX:MaxMetaspaceSize=256m"
+export NEW="-XX:NewSize=2g -XX:MaxNewSize=10g"
 -XX:MaxMetaspaceSizePermGen 공간에 대한 설정과 JMeter 5.5는 나중에 메타스페이스 영역으로 복제되었습니다. 따라서 이 옵션은 Metaspace 크기에 대한 설정입니다.
 
 
