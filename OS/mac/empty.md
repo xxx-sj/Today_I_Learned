@@ -58,3 +58,11 @@ ulimit -a // user limit
 -n: file descriptors                unlimited
 ```
 
+
+```
+sudo launchctl limit maxproc 2048 1024
+export JVM_ARGS="-Xms8g -Xmx12g" && sh /Users/a1234/Desktop/workspace/apache-jmeter-5.5/bin/jmeter.sh
+
+sysctl -a
+```
+
