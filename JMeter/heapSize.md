@@ -8,6 +8,14 @@ export HEAP="-Xms2g[최소] -Xmx10g [최대] -XX:MaxMetaspaceSize=256m"
 export HEAP="-Xms2g -Xmx10g -XX:MaxMetaspaceSize=256m"
 export NEW="-XX:NewSize=2g -XX:MaxNewSize=10g"
 ```
+
+```
+window
+
+set HEAP="-Xms2g[최소] -Xmx10g [최대] -XX:MaxMetaspaceSize=256m"
+set HEAP="-Xms2g -Xmx10g -XX:MaxMetaspaceSize=256m"
+set NEW="-XX:NewSize=2g -XX:MaxNewSize=10g"
+```
 ```
 -XX:MaxMetaspaceSizePermGen 공간에 대한 설정과 JMeter 5.5는 나중에 메타스페이스 영역으로 복제되었습니다. 따라서 이 옵션은 Metaspace 크기에 대한 설정입니다.
 
