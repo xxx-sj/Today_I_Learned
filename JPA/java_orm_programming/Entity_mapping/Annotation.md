@@ -18,7 +18,13 @@ property
 - schema: 스키마 기능이 있는 데이터베이스에서 스키마를 매핑한다.
 - uniqueConstraints: DDL 생성 시에 유니크 제약조건을 만든다. 2개 이상의 복합 유니크 제약조건도 만들 수 있다.
                      참고로 이 기능은 스키마 자동 생성 기능을 사용해서 DDL을 만들 때만 사용된다.         
-                     
+
+@Table(name="MEMBER", uniqueConstraints = {@UniqueConstraint(
+  name = "NAME_UNIQUE"
+  columnNames = {"NAME", "AGE"}
+)})
+// ALTER TABLE MEMBER ADD CONSTRAINT NAME_UNIQUE UNIQUE (NAME, AGE)
+
 * * *
 ### @Enumerated([EnumType.STRING])
 자바의 enum 을 사용하려면 어노테이션으로 매핑해야한다. 
