@@ -10,3 +10,4 @@
 * * *
 ### 2023-04-09 [일]
 - [필드와 컬럼매핑](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/Entity_mapping/%ED%95%84%EB%93%9C%EC%99%80%EC%BB%AC%EB%9F%BC%EB%A7%A4%ED%95%91.md)
+- [](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84_%EB%A7%A4%ED%95%91%EA%B8%B0%EC%B4%88/%EC%96%91%EB%B0%A9%ED%96%A5_%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84.md)
