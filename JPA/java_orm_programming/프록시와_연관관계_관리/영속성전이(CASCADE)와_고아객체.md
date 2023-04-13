@@ -91,6 +91,8 @@ class Parent {
 @OneToOne, @OneToMany만 가능  [부모 객체에서 사용가능하기 때문에]
 
 
+** cascade = CascadeType.ALL, orphanRemoval = true ** 를 같이 사용하게 되면 parent에서 child의 life cycle을     
+관리하게 된다.
 
 
 
