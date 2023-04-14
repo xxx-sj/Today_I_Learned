@@ -1,0 +1,59 @@
+# 객체지향 쿼리 언어
+
+- JPQL [표준 문법]
+- JPA Criteria [자바 코드 제네레이터]
+- QUeryDSL [자바 코드 제네레이터]
+- 네이티브 SQL [데이터베이스 종속 쿼리]
+- JDBC API 직접 사용, mybatis, Stringjdbctemplate 함께 사용
+
+
+### JPQL 
+- 가장 단순한 조회 방법
+- 객체 그래프 탐색 a.getA().getB();
+- JPA를 사용하ㅕㄴ 엔티티 객체를 중심으로 개발
+- 문제는 검색 쿼리
+- 검색을 할 때도 테이블이 아닌 엔티티 객체를 대상으로 검색
+- 모든 DB데이터를 객체로 변환해서 검색하는 것은 불가능
+- 어플리케이션이 필요한 데이터만 DB에서 불러오려면 결국 검색 조건이 포함된 SQL이 필요
+- JPA는 SQL을 추상한 JPQL 객체 지향 쿼리 언어 제공
+- 엔티티 객체를 대상으로 쿼리
+
+
+```sql
+String jpql = "select m from Member m where m.name like '%hello%'"; //Member = class name
+
+em.createQuery(jpql, Member.class).getResultList();
+```  
+- 동적 쿼리가 어려움 [문자를 더하고 띄어쓰기 주요하게 신경써야 함]
+
+
+### Criteria
+```java
+ CriteriaBuilder cb = em.getCriteriaBuilder();
+ CriteriaQuery<Member> query = cb.createQuery(Member.class);
+ 
+  Root<Member> m = query.from(Member.class);
+  CriteriaQuery<Member> cq = query.select(m).where(cb.equal(m.get("username"), "kim"));
+  List<Member> requestList = em.createqQuey(cq).getRequestList();
+```
+- 조건에 따라 동적 쿼리를 짜기 편하다
+- 쿼리를 컴파일 시점에 오류를 발견할 수 있다.
+
+
+### QueryDSL
+- 자바 코드로 JPQL로 작성가능
+- 빌더 역ㅎㄹ
+- 컴파일 시점에 문법 오류 발견 가능
+- 단순하고 쉬움
+- **실무 사용 권장**
+
+
+### 네이티브 SQL
+- JPQL로 해결할 수 없는 특정 데이터베이스에 의존적인 기능
+- 오라클 CONNECT BY
+
+
+
+
+
+##### 출처: https://www.inflearn.com/course/lecture?courseSlug=ORM-JPA-Basic&unitId=21718&tab=curriculum
