@@ -34,7 +34,9 @@ merge동작을 살펴보자면 먼저 영속성 컨텍스트에서 dto의 entity
 ### merge 사용 시 주의 점
 merge는 인자로 넘어온 dto의 값들을 모두 update하기 때문에 값이 넘어오지 않은 경우 [ null로 설정된 값 ] 또한 모두 update 될 수 있다.     
 
-**되도록 find를 통해 엔티티를 찾은 후 수정해야 할 값들을 변경하는 것이 좋다.**
+
+
+**[ 변경감지를 사용하자 !] 되도록 find를 통해 엔티티를 찾은 후 수정해야 할 값들을 변경하는 것이 좋다.**
 
 
 ##### 출처: https://www.inflearn.com/course/lecture?courseSlug=%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1&unitId=24309
