@@ -1,5 +1,7 @@
 # JPA
 * * *
+blog: [프로젝트 생성](https://cronex.tistory.com/m/23)
+* * *
 ### 2023-04-07[금]
 - [update](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/update/update.md)
 - [remove](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/remove/remove.md)
