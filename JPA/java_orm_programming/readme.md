@@ -33,6 +33,7 @@ blog: [프로젝트 생성](https://cronex.tistory.com/m/23)
 - [임베디드 타입](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EA%B0%92_%ED%83%80%EC%9E%85/%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C_%ED%83%80%EC%9E%85.md)
 * * *
 ### 2023-05-06 [토]
+-[x_to_one_mapping](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/API%EA%B0%9C%EB%B0%9C%EA%B3%BC_%EC%84%B1%EB%8A%A5_%EC%B5%9C%EC%A0%81%ED%99%94/x_to_one_mapping.md)
 * * *
 
 
