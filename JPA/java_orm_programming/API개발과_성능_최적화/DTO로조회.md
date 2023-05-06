@@ -45,5 +45,7 @@ public List<OrderSimpleQueryDto> findOrderDtos() {
 select에서 new package + class에 생성자를 이용하여 쿼리한 후에 값을 설정한다.    
 dto같은 경우 재사용성이 떨어지기 때문에 되도록 entity를 사용하여 조회 [ fetch ] 후 dto를 설정하는 것이 좋다.
 
+조회전용으로 화면에 맞추어 사용할 때 DTO를 이용하여 조회할만 하다.
+
 ##### 출처: https://www.inflearn.com/course/lecture?courseSlug=%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94&unitId=24328&category=questionDetail&tab=curriculum
 
