@@ -138,6 +138,7 @@ gradle에 추가해주기
 ```
 getMember() 까지만 하면 proxy객체인 상태이고 실제 객체에서 필드값을 가져올 때 실제 객체가 된다. [아무 필드상관없이 ]
 
+**즉시로딩은 가급적 사용 x **
 **처음부터 entity 반환이 아닌 dto를 만들어 반환 할 것**
 
 ##### 출처: https://www.inflearn.com/course/lecture?courseSlug=%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94&unitId=24325&category=questionDetail
