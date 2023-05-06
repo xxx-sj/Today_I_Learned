@@ -32,6 +32,7 @@ blog: [프로젝트 생성](https://cronex.tistory.com/m/23)
 - [기본값 타입](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EA%B0%92_%ED%83%80%EC%9E%85/%EA%B8%B0%EB%B3%B8%EA%B0%92_%ED%83%80%EC%9E%85.md)
 - [임베디드 타입](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EA%B0%92_%ED%83%80%EC%9E%85/%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C_%ED%83%80%EC%9E%85.md)
 * * *
-### 2023-04-14 [금]
+### 2023-05-06 [토]
+* * *
 
 
