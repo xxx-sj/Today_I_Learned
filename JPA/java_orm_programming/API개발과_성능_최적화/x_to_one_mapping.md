@@ -124,6 +124,20 @@ gradle에 추가해주기
 추가해주면 LAZY는 기본으로 null로 반환한다.
 	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5'
 ```
-추가해주는 방법이 있고, 처음부터 entity 반환이 아닌 dto를 만들어 반환 할 것
+추가해주는 방법이 있고, 강제 로딩을 통해 실제객체를 가져오는법     
+```java
+    @GetMapping("/api/v1/simple-orders")
+    public List<Order> ordersV1() {
+        List<Order> all = orderRepository.findAllByString(new OrderSearch());
+        for (Order order : all) {
+            order.getMember().getName(); // LAZY 강제 초기화
+	    order.getDelivery().getAddress();
+        }
+        return all;
+    }
+```
+getMember() 까지만 하면 proxy객체인 상태이고 실제 객체에서 필드값을 가져올 때 실제 객체가 된다. [아무 필드상관없이 ]
+
+**처음부터 entity 반환이 아닌 dto를 만들어 반환 할 것**
 
 ##### 출처: https://www.inflearn.com/course/lecture?courseSlug=%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94&unitId=24325&category=questionDetail
