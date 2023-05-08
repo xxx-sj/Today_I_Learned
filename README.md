@@ -23,3 +23,9 @@
 ### 2023-05-06 [토]
 - [JPA](https://github.com/xxx-sj/Today_I_Learned/tree/master/JPA/java_orm_programming)
 * * *
+### 2023-05-07 [일]
+- [JPA](https://github.com/xxx-sj/Today_I_Learned/tree/master/JPA/java_orm_programming)
+* * *
+### 2023-05-08 []
+- [JPA](https://github.com/xxx-sj/Today_I_Learned/tree/master/JPA/java_orm_programming)
+* * *
