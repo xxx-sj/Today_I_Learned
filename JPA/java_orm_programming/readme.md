@@ -37,4 +37,11 @@ blog: [프로젝트 생성](https://cronex.tistory.com/m/23)
 * * *
 ### 2023-05-21 [일]
 - [메소드 이름으로 쿼리생성](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/%EB%A9%94%EC%86%8C%EB%93%9C_%EC%9D%B4%EB%A6%84%EC%9C%BC%EB%A1%9C_%EC%BF%BC%EB%A6%AC_%EC%83%9D%EC%84%B1.md) [spring-data-jpa에서 메서드 명을 이용한 쿼리생성]
+- [NamedQuery](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/JPA_NameedQuery.md)
+- [@NamedQuery entity에 쿼리를 미리 생성해두고 repo에서 사용하는 방식 em.createNamedQuery, 또는 @Query(name= "") 정적쿼리]
+- - [@Query,리포지토리 메서드에 쿼리 정의하기](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/%40Query_%EB%A0%88%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C%EC%97%90_%EC%BF%BC%EB%A6%AC_%EC%A0%95%EC%9D%98%ED%95%98%EA%B8%B0.md) [정적쿼리, 이 전 NamedQuery 처럼 repository method 위에 @Query를 사용하되, name이 아닌 query 를 사용한다.]
+- [@Query, 값 DTO 조회하기](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/%40Query_%EA%B0%92_DTO_%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0.md) [@Query를 이용해 필요한 column이나, DTO를 이용하여 조회하는 방법]
+- [파라미터 바인딩](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0_%EB%B0%94%EC%9D%B8%EB%94%A9.md) [파라미터 바인딩에는 위치기반과, 이름기반이 존재하며, 주로 이름기반을 써야하며, collection 파라미터를 이용한 조회도 가능하다.]
+- [반환타입](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/%EB%B0%98%ED%99%98_%ED%83%80%EC%9E%85.md)
+* * *
 
