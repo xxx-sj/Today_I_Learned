@@ -44,4 +44,5 @@ blog: [프로젝트 생성](https://cronex.tistory.com/m/23)
 - [파라미터 바인딩](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0_%EB%B0%94%EC%9D%B8%EB%94%A9.md) [파라미터 바인딩에는 위치기반과, 이름기반이 존재하며, 주로 이름기반을 써야하며, collection 파라미터를 이용한 조회도 가능하다.]
 - [반환타입](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/%EB%B0%98%ED%99%98_%ED%83%80%EC%9E%85.md)
 * * *
-
+### 2023-05-22 [월]
+- [반환 타입](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%BF%BC%EB%A6%AC_%EB%A9%94%EC%86%8C%EB%93%9C_%EA%B8%B0%EB%8A%A5/%EB%B0%98%ED%99%98_%ED%83%80%EC%9E%85.md)[spring-data-jpa를 사용하면 repository에서 여러가지 반환타입을 사용할 수 있다. Optional<T>, T, Collection<T> ...  [find..by[prorperty name] 으로 ]]
