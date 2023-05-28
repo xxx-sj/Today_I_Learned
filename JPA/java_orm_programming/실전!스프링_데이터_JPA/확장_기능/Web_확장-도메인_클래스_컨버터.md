@@ -29,7 +29,7 @@ public class MemberController {
     }
 
     @GetMapping("/emember2/{id}")
-    public String findMember2(@PathVariable("id ") Member member) {
+    public String findMember2(@PathVariable("id") Member member) {
         return member.getUsername();
     }
 
