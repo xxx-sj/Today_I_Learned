@@ -65,7 +65,7 @@ blog: [프로젝트 생성](https://cronex.tistory.com/m/23)
 - [새로운 엔티티를 구별하는 방법](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA_%EB%B6%84%EC%84%9D/%EC%83%88%EB%A1%9C%EC%9A%B4_%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A5%BC_%EA%B5%AC%EB%B3%84%ED%95%98%EB%8A%94_%EB%B0%A9%EB%B2%95.md)[spring-data-jpa의 save는 merge와 persitt를 사용하는데, @GeneratedValue가 아닌 채번테이블이나 직접 엔티티아이디를 부여하는 경우 merge를 타게 되는데, 이를 해결하기 위해 entity에 Persistable을 구현한다. ]
 * * *
 ### 2023-06-01 [목]
-- [projections]()
+- [projections](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EB%82%98%EB%A8%B8%EC%A7%80_%EA%B8%B0%EB%8A%A5%EB%93%A4/Projections.md) [open projection = interface에 get...() method를 정의하여 사용 | SPEL을 사용하여 interface에 정의한 메소드 위체 @Value를 사용하여 toString()와 같이 정의할 수 있다.  | class 기반 porjection 1뎁스만 최적화가 되는 단점이 있지만, class의 생성자를 통해 interface와 같이 사용할 수 있다. 주의해야 할 점은 생성자의 인자와 매칭하므로 인자로 받는 property명을 매칭해서 사용할 것. | 동적 projection open projection의 반환값으로 제네릭을 선언하고, 인자로 Class'<'T'>'를 받아서 동적으로 반환값을 설정할 수 있다. ]
 * * *
 ### 2023-06-03 [토]
--[]()
+-[네이티브 쿼리](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EB%82%98%EB%A8%B8%EC%A7%80_%EA%B8%B0%EB%8A%A5%EB%93%A4/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EC%BF%BC%EB%A6%AC.md) [되도록 쓰지 않는 것이 좋고, native query보다는 mybatis나 jdbc template 권장. @Query 옵션으로 nativeQuery = true 를 추가해서 작성 가능. 주로 projection과 함께 사용한다.]
