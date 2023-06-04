@@ -63,4 +63,9 @@ blog: [프로젝트 생성](https://cronex.tistory.com/m/23)
 * * * 
 ### 2023-05-29 [월]
 - [새로운 엔티티를 구별하는 방법](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA/%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_JPA_%EB%B6%84%EC%84%9D/%EC%83%88%EB%A1%9C%EC%9A%B4_%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A5%BC_%EA%B5%AC%EB%B3%84%ED%95%98%EB%8A%94_%EB%B0%A9%EB%B2%95.md)[spring-data-jpa의 save는 merge와 persitt를 사용하는데, @GeneratedValue가 아닌 채번테이블이나 직접 엔티티아이디를 부여하는 경우 merge를 타게 되는데, 이를 해결하기 위해 entity에 Persistable을 구현한다. ]
-- 
+* * *
+### 2023-06-01 [목]
+- [projections]()
+* * *
+### 2023-06-03 [토]
+-[]()
