@@ -15,5 +15,6 @@ spring.jpa.properties.hibernate.format_sql=true
 logging.level.org.hibernate.SQL=debug
 logging.level.org.hibernate.type= trace
 ```
+logingg.level.org.hibernate.type= trace 는 console에 binding 된 값을 확인할 수 있다.
 
 ##### 출처: https://www.inflearn.com/course/lecture?courseSlug=querydsl-%EC%8B%A4%EC%A0%84&unitId=30120&tab=curriculum&category=questionDetail
