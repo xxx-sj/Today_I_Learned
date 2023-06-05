@@ -54,5 +54,6 @@ public void join_on_no_relation() {
   }
 }
 ```
+일반 조인과 다르게 join()에 join할 table만을 작성한다. leftjoin(team)
 
 ##### 출처: https://www.inflearn.com/course/lecture?courseSlug=querydsl-%EC%8B%A4%EC%A0%84&unitId=30130&tab=curriculum&category=questionDetail
