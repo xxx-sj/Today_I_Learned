@@ -106,3 +106,8 @@ blog: [프로젝트 생성](https://cronex.tistory.com/m/23)
 - [스프링 데이터 페이징 -querydsl 연동](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!QueryDSL/%EC%8B%A4%EB%AC%B4%ED%99%9C%EC%9A%A9/%EC%8A%A4%ED%94%84%EB%A7%81_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%8E%98%EC%9D%B4%EC%A7%95.md) [Pageable을 사용하여 offset과 limit에 값을 setting한다. content와 totalcount의 query를 분리하여 가져온다.]
 - [페이징 - 최적화](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!QueryDSL/%EC%8B%A4%EB%AC%B4%ED%99%9C%EC%9A%A9/countQuery%EC%B5%9C%EC%A0%81%ED%99%94.md) [PageableExecutionUtils.getPage 를 사용하여 최적화]
 * * *
+### 2023-06-10 [토]
+- [querydslRepositorySupport](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!QueryDSL/JPA%EA%B0%80_%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94_querydsl%EA%B8%B0%EB%8A%A5/%EB%A6%AC%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC%EC%A7%80%EC%9B%90-QuerydslRepositorySupport.md)
+* * *
+### 2023-06-11 [일]
+- [querydslRepositorySupport 직접구현](https://github.com/xxx-sj/Today_I_Learned/blob/master/JPA/java_orm_programming/%EC%8B%A4%EC%A0%84!QueryDSL/JPA%EA%B0%80_%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94_querydsl%EA%B8%B0%EB%8A%A5/Querydsl_%EC%A7%80%EC%9B%90_%ED%81%B4%EB%9E%98%EC%8A%A4_%EC%A7%81%EC%A0%91.md)
